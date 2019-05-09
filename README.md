@@ -31,7 +31,7 @@ Elevator pitch: This web application will allow pet owners to find information o
     * Forms: email, address, credit card information
 
 ### User Flow
-![User Flow](UserFlow.capstone.jpeg)
+![User Flow](abbykaemmerer/Code/SavvyCoders/CapstoneProject/UserFlow.capstone.jpg)
 ### Wireframes
 ![Home Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/Title.capstone.pdf)
 ![Cat Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CatPage.capstone.pdf)
