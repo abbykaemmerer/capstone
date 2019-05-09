@@ -33,3 +33,11 @@ Elevator pitch: This web application will allow pet owners to find information o
 ### User Flow
 ![User Flow](abbykaemmerer/Code/SavvyCoders/CapstoneProject/UserFlow.capstone.pdf)
 ### Wireframes
+![Home Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/Title.capstone.pdf)
+![Cat Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CatPage.capstone.pdf)
+![Cat Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CatAil.capstone.pdf)
+![Dog Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/DogPage.capstone.pdf)
+![Dog Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/DogAil.capstone.pdf)
+![Cart](abbykaemmerer/Code/SavvyCoders/CapstoneProject/Cart.capstone.pdf)
+![Check Out](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CheckOut.capstone.pdf)
+
