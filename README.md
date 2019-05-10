@@ -31,13 +31,13 @@ Elevator pitch: This web application will allow pet owners to find information o
     * Forms: email, address, credit card information
 
 ### User Flow
-![User Flow](abbykaemmerer/Code/SavvyCoders/CapstoneProject/UserFlow.capstone.jpg)
+![User Flow](UserFlow.capstone.pdf)
 ### Wireframes
-![Home Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/Title.capstone.pdf)
-![Cat Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CatPage.capstone.pdf)
-![Cat Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CatAil.capstone.pdf)
-![Dog Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/DogPage.capstone.pdf)
-![Dog Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/DogAil.capstone.pdf)
-![Cart](abbykaemmerer/Code/SavvyCoders/CapstoneProject/Cart.capstone.pdf)
-![Check Out](abbykaemmerer/Code/SavvyCoders/CapstoneProject/CheckOut.capstone.pdf)
+![Home Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/Title.capstone.pdf)
+![Cat Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/CatPage.capstone.pdf)
+![Cat Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/CatAil.capstone.pdf)
+![Dog Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/DogPage.capstone.pdf)
+![Dog Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/DogAil.capstone.pdf)
+![Cart](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/Cart.capstone.pdf)
+![Check Out](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/CheckOut.capstone.pdf)
 
