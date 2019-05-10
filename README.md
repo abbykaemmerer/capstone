@@ -33,11 +33,11 @@ Elevator pitch: This web application will allow pet owners to find information o
 ### User Flow
 ![User Flow](https://github.com/abbykaemmerer/capstone/blob/master/docs/UserFlow.capstone.pdf)
 ### Wireframes
-![Home Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/Title.capstone.pdf)
-![Cat Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/CatPage.capstone.pdf)
-![Cat Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/CatAil.capstone.pdf)
-![Dog Page](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/DogPage.capstone.pdf)
-![Dog Ail](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/DogAil.capstone.pdf)
-![Cart](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/Cart.capstone.pdf)
-![Check Out](abbykaemmerer/Code/SavvyCoders/CapstoneProject/docs/CheckOut.capstone.pdf)
+![Home Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/Title.capstone.pdf)
+![Cat Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/CatPage.capstone.pdf)
+![Cat Ail](https://github.com/abbykaemmerer/capstone/blob/master/docs/CatAil.capstone.pdf)
+![Dog Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/DogPage.capstone.pdf)
+![Dog Ail](https://github.com/abbykaemmerer/capstone/blob/master/docs/DogAil.capstone.pdf)
+![Cart](https://github.com/abbykaemmerer/capstone/blob/master/docs/Cart.capstone.pdf)
+![Check Out](https://github.com/abbykaemmerer/capstone/blob/master/docs/CheckOut.capstone.pdf)
 
