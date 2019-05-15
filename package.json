@@ -1,0 +1,27 @@
+{
+  "name": "CapstoneProject",
+  "version": "1.0.0",
+  "description": "----------------------------------",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abbykaemmerer/capstone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abbykaemmerer/capstone/issues"
+  },
+  "homepage": "https://github.com/abbykaemmerer/capstone#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
