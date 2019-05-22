@@ -56,7 +56,7 @@ Photos:
 ![Cat pg small 1](https://unsplash.com/photos/UTVfyq6ZlBU)
 ![Cat pg small 2](https://unsplash.com/photos/z6NZYyTjEd0)
 ![Cat pg small 3](https://unsplash.com/photos/CKsDMYPDgCs)
-![Dog Page header](https://unsplash.com/photos/U6nlG0Y5sfs)
+![Dog Page header](https://github.com/abbykaemmerer/capstone/blob/master/docs/DogHeadPg.jpeg)
 ![Dog pg small 1](https://unsplash.com/photos/75ona6X6_PI)
 ![Dog pg small 2](https://unsplash.com/photos/dqlL-ZMjedo)
 ![Dog pg small 3](https://unsplash.com/photos/MUs5nKdY-gc)
