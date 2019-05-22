@@ -3,7 +3,7 @@
 
 Audience: Prospective employers
 
-Statement: I want to create an easy to use ecommerce web application for pet owners that have dogs and/or cats with restricted diets. 
+Statement: I want to create an easy to use ecommerce web application for pet owners that have dogs and/or cats with restricted diets.
 
 Elevator pitch: This web application will allow pet owners to find information on why their cat or dog is getting ill after eating or having a hard time eating. It will recommend what kinds of food and supplies will help them regulate their pet's diet and allow them to purchase these items directly on the page.
 
@@ -41,3 +41,23 @@ Elevator pitch: This web application will allow pet owners to find information o
 ![Cart](https://github.com/abbykaemmerer/capstone/blob/master/docs/Cart.capstone.pdf)
 ![Check Out](https://github.com/abbykaemmerer/capstone/blob/master/docs/CheckOut.capstone.pdf)
 
+### Trello Board:
+![Trello Board](https://trello.com/b/sXJ8lWDO/capstone)
+
+Font Options:
+
+Color Scheme:
+
+Photos:
+![Home Page option 1](https://unsplash.com/photos/6VQlKJp2vpo)
+![Home Page option 2](https://unsplash.com/photos/9gz3wfHr65U)
+![Home Page option 3](https://unsplash.com/photos/dD75iU5UAU4)
+![Cat Page header](https://unsplash.com/photos/gKXKBY-C-Dk)
+![Cat pg small 1](https://unsplash.com/photos/UTVfyq6ZlBU)
+![Cat pg small 2](https://unsplash.com/photos/z6NZYyTjEd0)
+![Cat pg small 3](https://unsplash.com/photos/CKsDMYPDgCs)
+![Dog Page header](https://unsplash.com/photos/U6nlG0Y5sfs)
+![Dog pg small 1](https://unsplash.com/photos/75ona6X6_PI)
+![Dog pg small 2](https://unsplash.com/photos/dqlL-ZMjedo)
+![Dog pg small 3](https://unsplash.com/photos/MUs5nKdY-gc)
+![Confirmation Page](https://unsplash.com/photos/D1wiHCovGJ0)
