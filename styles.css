@@ -1,0 +1,8 @@
+#bg-image {
+  background: url(https://github.com/abbykaemmerer/capstone/blob/master/docs/HomeOpt1.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+header {
+  font-size: 50px;
+}
