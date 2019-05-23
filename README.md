@@ -42,7 +42,7 @@ Elevator pitch: This web application will allow pet owners to find information o
 ![Check Out](https://github.com/abbykaemmerer/capstone/blob/master/docs/CheckOut.capstone.pdf)
 
 ### Trello Board:
-![Trello Board](https://trello.com/b/sXJ8lWDO/capstone)
+[Trello Board](https://trello.com/b/sXJ8lWDO/capstone)
 
 Font Options:
 
