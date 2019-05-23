@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="bg-image">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,30 +11,39 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
 
   <link rel="stylesheet" href="styles.css">
 
 </head>
 <body>
-  <div id="bg-image">
+  <div>
+
     <nav>
-<ul>
-  <li>Home</li>
-  <li>Cat</li>
-  <li>Dog</li>
-  <li>Shopping Cart</li>
+        <header>Title</header>
+  <ul class="nav-menu">
+    <li>
+      Menu
+    <ul id="dropdown">
+  <li><a href="home.html">Home</a></li>
+  <li><a href="catpage.html">Cat</a></li>
+  <li><a href="dogpage.html">Dog</a></li>
+  <li><a href="shoppingcart.html">Shopping Cart</a></li>
+</ul>
+</li>
 </ul>
     </nav>
 
-<header>Title</header>
 
 <main>
-  <p>
-    Description of website
+  <p class="description">
+   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae provident fugiat harum nisi quo ullam obcaecati ut accusamus veniam necessitatibus suscipit neque asperiores ipsam itaque, quibusdam aut quae distinctio illo?
   </p>
-  <button>Cat page</button>
-  <button>Dog page</button>
+  <button class="cat-button">Cat page</button>
+  <button class="dog-button">Dog page</button>
 </main>
 
 <footer></footer>
