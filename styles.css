@@ -89,3 +89,9 @@ a:visited {
 .links { grid-area: links; }
 
 .description { grid-area: description; }
+
+#cat-bg-image {
+  background-image: url('/docs/CatPageHeader.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
