@@ -28,29 +28,62 @@ li:hover #dropdown {
   display: block;
 }
 
-.cat-button {
-  text-align: center;
-  margin-left: 500px;
+a:visited {
+  color: black;
 }
 
-.dog-button {
-  text-align: center;
-  margin-left: 250px;
-}
 .nav-menu {
   text-align: right;
   list-style: none;
   padding-right: 20px;
 }
 
-.description {
+.CATS-button {
+  font-size: xx-large;
+  border: 2px solid;
+  background-color: rgba(255,255,255,.2);
   text-align: center;
-  margin: 150px;
-  background-color: rgba(255,255,255,.6);
 }
+
+.DOGS-button {
+  font-size: xx-large;
+  border: 2px solid;
+  background-color: rgba(255,255,255,.2);
+  text-align: center;
+}
+
+.home-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 1.5fr;
+  grid-template-areas: ". ." "CATS DOGS";
+}
+
+.CATS { grid-area: CATS; }
+
+.DOGS { grid-area: DOGS; }
 
 #bg-image {
   background-image: url('/docs/HomeOpt2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+/* Cat Page */
+.page-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.1fr 1.4fr 1.3fr 1.3fr;
+  grid-template-areas: "." "description" "links" "pictures";
+}
+
+.pictures {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ". . .";
+  grid-area: pictures;
+}
+
+.links { grid-area: links; }
