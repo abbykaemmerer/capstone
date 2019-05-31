@@ -95,3 +95,21 @@ a:visited {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+section {
+  height: 800px;
+}
+
+.links {
+  height: 400px;
+}
+
+.pictures {
+  height: 400px;
+}
+
+#dog-bg-image {
+  background-image: url('/docs/DogHeaderPg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
