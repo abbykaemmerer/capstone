@@ -39,17 +39,19 @@ a:visited {
 }
 
 .CATS-button {
-  font-size: xx-large;
+  font-size: -webkit-xxx-large;
   border: 2px solid;
   background-color: rgba(255,255,255,.2);
   text-align: center;
+  width: 125px;
 }
 
 .DOGS-button {
-  font-size: xx-large;
+  font-size: -webkit-xxx-large;
   border: 2px solid;
   background-color: rgba(255,255,255,.2);
   text-align: center;
+  width: 135px;
 }
 
 .home-grid-container {
@@ -57,6 +59,10 @@ a:visited {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.5fr 1.5fr;
   grid-template-areas: ". ." "CATS DOGS";
+  justify-items: center;
+  padding-top: 200px;
+  padding-left: 300px;
+  padding-right: 300px;
 }
 
 .CATS { grid-area: CATS; }
