@@ -92,7 +92,8 @@ a:visited {
   grid-area: pictures;
 }
 
-.links { grid-area: links; }
+.links {
+  grid-area: links; }
 
 .description { grid-area: description; }
 
@@ -107,7 +108,20 @@ section {
 }
 
 .links {
-  height: 400px;
+  height: 200px;
+  padding-top: 200px;
+  font-size: 30px;
+}
+
+#cat-conditions1 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#cat-conditions2 {
+  display: flex;
+  justify-content: space-evenly;
+
 }
 
 .pictures {
