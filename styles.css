@@ -127,13 +127,18 @@ section {
   grid-template-areas: "order-summary" "email" "card" "address";
 }
 
-.order-summary { grid-area: order-summary; }
+.order-summary { grid-area: order-summary;
+height: 300px;
+}
 
-.email { grid-area: email; }
+.email { grid-area: email;
+}
 
-.card { grid-area: card; }
+.card { grid-area: card;
+}
 
-.address { grid-area: address; }
+.address { grid-area: address;
+}
 
 /* Images */
 
@@ -207,4 +212,11 @@ section {
   background-image: url('/docs/worried-cat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+#checkout-bg-image {
+  background-image: url('/docs/HomeOpt1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1000px;
 }
