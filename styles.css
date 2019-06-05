@@ -113,23 +113,30 @@ section {
   font-size: 30px;
 }
 
-#cat-conditions1 {
+#conditions1 {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+#conditions2 {
   display: flex;
   justify-content: space-around;
-}
-
-#cat-conditions2 {
-  display: flex;
-  justify-content: space-evenly;
 
 }
-
 .pictures {
   height: 400px;
 }
 
 #dog-bg-image {
   background-image: url('/docs/DogHeaderPg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#obesity-bg-image {
+  background-image: url('/docs/watchin-you-dog.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
