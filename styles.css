@@ -75,8 +75,6 @@ a:visited {
   background-size: cover;
 }
 
-
-/* Cat Page */
 .page-grid-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -93,24 +91,16 @@ a:visited {
 }
 
 .links {
-  grid-area: links; }
-
-.description { grid-area: description; }
-
-#cat-bg-image {
-  background-image: url('/docs/CatPageHeader.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-section {
-  height: 800px;
-}
-
-.links {
+  grid-area: links;
   height: 200px;
   padding-top: 200px;
   font-size: 30px;
+}
+
+.description { grid-area: description; }
+
+section {
+  height: 800px;
 }
 
 #conditions1 {
@@ -129,14 +119,92 @@ section {
   height: 400px;
 }
 
+/* Check Out */
+.order-form-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-areas: "order-summary" "email" "card" "address";
+}
+
+.order-summary { grid-area: order-summary; }
+
+.email { grid-area: email; }
+
+.card { grid-area: card; }
+
+.address { grid-area: address; }
+
+/* Images */
+
 #dog-bg-image {
   background-image: url('/docs/DogHeaderPg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-#obesity-bg-image {
-  background-image: url('/docs/watchin-you-dog.jpg');
+#dog-obesity-bg-image {
+  background-image: url('/docs/smiling-lab.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dog-preg-bg-image {
+  background-image: url('/docs/happy-puppy.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dog-diabetes-bg-image {
+  background-image: url('/docs/happy-dogs.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dog-panc-bg-image {
+  background-image: url('/docs/sleeping-french.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#dog-skin-bg-image {
+  background-image: url('/docs/pug-in-blanket.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-bg-image {
+  background-image: url('/docs/CatPageHeader.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-obesity-bg-image {
+  background-image: url('/docs/kitten-on-walk.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-preg-bg-image {
+  background-image: url('/docs/mom-and-kitten.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-diabetes-bg-image {
+  background-image: url('/docs/sleepy-cat.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-ut-bg-image {
+  background-image: url('/docs/cat-scatches.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#cat-hairballs-bg-image {
+  background-image: url('/docs/worried-cat.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
