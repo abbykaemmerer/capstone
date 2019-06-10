@@ -70,8 +70,10 @@ a:visited {
 .DOGS { grid-area: DOGS; }
 
 #bg-image {
-  background-image: url('/docs/HomeOpt2.jpg');
-  background-repeat: no-repeat;
+  background: url('/docs/HomeOpt2.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -125,12 +127,23 @@ section {
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-template-areas: "order-summary" "email" "card" "address";
+
 }
 
 .order-summary { grid-area: order-summary;
 height: 300px;
+text-align: center;
+font-size: large;
+font-weight: bolder;
+text-decoration: underline;
+background: rgba(255,255,255,.2);
 }
-
+#order-form {
+  text-align: center;
+font-size: large;
+font-weight: bolder;
+background: rgba(255,255,255,.2);
+}
 .email { grid-area: email;
 }
 
@@ -140,6 +153,25 @@ height: 300px;
 .address { grid-area: address;
 }
 
+.name {
+  padding: 20px;
+}
+.email {
+  padding: 15px;
+}
+.card {
+  padding: 15px;
+}
+.address {
+  padding: 15px;
+}
+.marketing {
+  padding: 15px;
+}
+
+.submit {
+  padding: 15px;
+}
 /* Images */
 
 #dog-bg-image {
