@@ -3,13 +3,19 @@ html {
 }
 
 header {
-  font-size: 50px;
+  font-size: 25px;
+  background-color: rgba(255,255,255,.6);
+  padding-top: 10px;
 }
 
 nav {
   background-color: rgba(255,255,255,.6);
   padding-top: 20px;
   position: sticky;
+}
+h3 {
+  margin: 0 auto;
+  font-size: 20px;
 }
 
 #dropdown {
