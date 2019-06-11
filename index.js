@@ -4,32 +4,7 @@ import Main from './components/Main';
 
 import Footer from './components/Footer';
 
-const states = {
-    'home': {
-        'title': 'Welcome',
-        'links': {
-            'primary': [ 'Menu' ],
-            'dropdown': [ 'Home','Cat','Dog', 'Cart' ] }
-    },
-    'cat': {
-        'title': 'Cat Page',
-        'links': {
-            'primary': [ 'Menu' ],
-            'dropdown': [ 'Home','Cat','Dog', 'Cart' ] }
-    },
-    'dog': {
-        'title': 'Dog Page',
-        'links': {
-            'primary': [ 'Menu' ],
-            'dropdown': [ 'Home','Cat','Dog', 'Cart' ] }
-    },
-    'cart': {
-        'title': 'Shopping Cart',
-        'links': {
-            'primary': [ 'Menu' ],
-            'dropdown': [ 'Home','Cat','Dog', 'Cart' ] }
-    }
-};
+import * as states from './store';
 
 const root = document.querySelector('#root');
 
@@ -42,4 +17,15 @@ ${Footer(state)}
 `;
 }
 
-render(states.home);
+render(states.Home);
+
+const links = document.querySelectorAll('nav a');
+
+links.forEach((link) => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault();
+        render(states[`${event.target.textContent}`]);
+    });
+});
+
+
