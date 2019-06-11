@@ -18,6 +18,11 @@ h3 {
   font-size: 20px;
 }
 
+footer {
+  text-align: center;
+  padding-top: 175px;
+}
+
 #dropdown {
   display: none;
   list-style: none;
