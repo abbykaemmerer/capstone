@@ -193,7 +193,7 @@ background: rgba(255,255,255,.2);
 }
 
 #dog-diabetes-bg-image {
-  background-image: url('/docs/happy-dogs.jpg');
+  background-image: url('/docs/sad-beagle.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }

@@ -7,6 +7,7 @@
     "doc": "docs"
   },
   "scripts": {
+    "build": "parcel build index.html && cp _redirects ./dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,5 +24,6 @@
   "devDependencies": {
     "eslint": "^5.16.0",
     "parcel-bundler": "^1.12.3"
-  }
+  },
+  "dependencies": {}
 }
