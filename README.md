@@ -31,15 +31,15 @@ Elevator pitch: This web application will allow pet owners to find information o
     * Forms: email, address, credit card information
 
 ### User Flow
-![User Flow](https://github.com/abbykaemmerer/capstone/blob/master/docs/UserFlow.capstone.pdf)
+![User Flow](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/UserFlow.capstone.pdf)
 ### Wireframes
-![Home Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/Title.capstone.pdf)
-![Cat Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/CatPage.capstone.pdf)
-![Cat Ail](https://github.com/abbykaemmerer/capstone/blob/master/docs/CatAil.capstone.pdf)
-![Dog Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/DogPage.capstone.pdf)
-![Dog Ail](https://github.com/abbykaemmerer/capstone/blob/master/docs/DogAil.capstone.pdf)
-![Cart](https://github.com/abbykaemmerer/capstone/blob/master/docs/Cart.capstone.pdf)
-![Check Out](https://github.com/abbykaemmerer/capstone/blob/master/docs/CheckOut.capstone.pdf)
+![Home Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/Title.capstone.pdf)
+![Cat Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/CatPage.capstone.pdf)
+![Cat Ail](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/CatAil.capstone.pdf)
+![Dog Page](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/DogPage.capstone.pdf)
+![Dog Ail](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/DogAil.capstone.pdf)
+![Cart](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/Cart.capstone.pdf)
+![Check Out](https://github.com/abbykaemmerer/capstone/blob/master/docs/wireframes/CheckOut.capstone.pdf)
 
 ### Trello Board:
 [Trello Board](https://trello.com/b/sXJ8lWDO/capstone)

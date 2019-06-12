@@ -1,4 +1,9 @@
 export default (state) => `    <main>
+<img
+  src="${state.image}"
+  width="200"
+  class="cat-header"
+  />
 <div class="page-grid-container">
 <h1>${state.subtitle}</h1>
     <div class="description">This is the page that will display all the cat conditions</div>

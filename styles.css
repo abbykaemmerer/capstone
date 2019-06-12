@@ -57,7 +57,7 @@ a:visited {
   width: 125px;
 }
 
-.dogs-button {
+.dog-button {
   font-size: -webkit-xxx-large;
   border: 2px solid;
   background-color: rgba(255,255,255,.2);
@@ -186,7 +186,7 @@ background: rgba(255,255,255,.2);
 /* Images */
 
 #dog-bg-image {
-  background-image: url('/docs/DogHeaderPg.jpg');
+  background-image: url('/docs/dog-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -222,7 +222,7 @@ background: rgba(255,255,255,.2);
 }
 
 #cat-bg-image {
-  background-image: url('/docs/CatPageHeader.jpg');
+  background-image: url('/docs/cat-page-header.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -258,7 +258,7 @@ background: rgba(255,255,255,.2);
 }
 
 #checkout-bg-image {
-  background-image: url('/docs/HomeOpt1.jpg');
+  background-image: url('/docs/home-opt1.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   height: 1000px;
