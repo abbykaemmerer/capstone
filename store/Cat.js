@@ -1,5 +1,4 @@
 import links from './Links';
-
 import img from '../docs/cat-page-header.jpg';
 
 export default {
