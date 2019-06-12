@@ -13,7 +13,6 @@ const router = new Navigo(window.location.origin);
 const root = document.querySelector('#root');
 
 function render(state){
-    console.log('named param state is', state);
     root.innerHTML = `
 ${Header(state)}
 ${Navigation(state)}
@@ -22,6 +21,13 @@ ${Footer(state)}
 `;
 
     router.updatePageLinks();
+
+    if(state.backgroundImage){
+        root.style.backgroundImage = `url(${state.backgroundImage})`;
+    }
+    else{
+        root.style.backgroundImage = `url(${state.image})`;
+    }
 }
 
 render(states.Home);
@@ -34,5 +40,3 @@ router
     })
     .on('/', () => render(states.Home))
     .resolve();
-
-

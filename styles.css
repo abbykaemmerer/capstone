@@ -28,7 +28,6 @@ body, html {
 }
 
 #root {
-  background-image: url('/docs/home-opt2.jpg');
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
