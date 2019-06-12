@@ -81,7 +81,7 @@ a:visited {
 .dogs { grid-area: DOGS; }
 
 #bg-image {
-  background: url('/docs/HomeOpt2.jpg') no-repeat center center fixed;
+  background: url('/docs/home-opt2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
