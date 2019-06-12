@@ -102,7 +102,7 @@ a:visited {
 .links {
   grid-area: links;
   font-size: 30px;
-  padding-top: 200px;
+  padding-top: 175px;
 }
 
 .description { grid-area: description; }
@@ -111,6 +111,7 @@ a:visited {
   display: flex;
   justify-content: space-between;
   padding-right: 250px;
+  padding-bottom: 25px;
 }
 
 #conditions2 {
