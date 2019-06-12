@@ -2,7 +2,7 @@ function buildNavHTML(stateLinks){
     let linksHTML = '';
 
     stateLinks.forEach((link) => {
-        linksHTML += `<li><a href="/${link.toLowerCase()}" data-navigo>${link}</li>`;
+        linksHTML += `<li><a href="/${link.text.toLowerCase()}" data-navigo>${link.text}</li>`;
     });
 
     return linksHTML;

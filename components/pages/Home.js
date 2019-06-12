@@ -1,4 +1,4 @@
-export default (state) => `
+export default () => `
 <main>
     <div class="home-grid-container">
         <div class="CATS-button"><a href="catpage.html">CATS</a></div>

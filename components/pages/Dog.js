@@ -1,5 +1,6 @@
-export default `      <main>
+export default (state) => `      <main>
 <div class="page-grid-container">
+<h1>${state.subtitle}</h1>
     <div class="description">This is the page that will display all the cat conditions</div>
 </section>
     <div class="links">
@@ -14,9 +15,9 @@ export default `      <main>
       </div>
     </div>
     <div class="pictures">
-      <img src="/docs/DogSmall1.jpg" alt="" height="400px" width="500px">
-      <img src="/docs/DogSmall2.jpg" alt="" height="400px" width="500px">
-      <img src="/docs/DogSmall3.jpg" alt="" height="400px" width="500px">
+      <img src="/docs/DogSmall1.jpg" alt="" height="400" width="500">
+      <img src="/docs/DogSmall2.jpg" alt="" height="400" width="500">
+      <img src="/docs/DogSmall3.jpg" alt="" height="400" width="500">
     </div>
   </div>
 </main>`;
