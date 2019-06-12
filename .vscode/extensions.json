@@ -1,4 +1,4 @@
-{
+  {
     "recommendations": [
       "formulahendry.auto-rename-tag",
       "aaron-bond.better-comments",
@@ -19,11 +19,8 @@
       "dbaeumer.vscode-eslint",
       "pkief.material-icon-theme",
       "donjayamanne.githistory",
-      "eamodio.gitlens",
       "smelukov.vscode-csstree",
-      "editorconfig.editorconfig",
       "codezombiech.gitignore",
       "kisstkondoros.vscode-gutter-preview",
-      "umoxfo.vscode-w3cvalidation"
     ]
   }
