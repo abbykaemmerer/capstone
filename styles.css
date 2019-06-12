@@ -112,10 +112,6 @@ a:visited {
 
 .description { grid-area: description; }
 
-section {
-  height: 800px;
-}
-
 #conditions1 {
   display: flex;
   justify-content: space-between;
@@ -127,9 +123,6 @@ section {
   display: flex;
   justify-content: space-around;
 
-}
-.pictures {
-  height: 400px;
 }
 
 /* Check Out */

@@ -1,7 +1,7 @@
 export default (state) => `    <main>
 <img
   src="${state.image}"
-  width="200"
+  width="600"
   class="cat-header"
   />
 <div class="page-grid-container">
