@@ -19,7 +19,8 @@ h3 {
 }
 
 footer {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
 
 body, html {
@@ -76,20 +77,13 @@ a:visited {
   width: 135px;
 }
 
-.home-grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 0.5fr;
-  grid-template-areas: ". ." "CATS DOGS";
-  justify-items: center;
+.home-container {
+  display: flex;
+  justify-content: space-evenly;
   padding-top: 200px;
-  padding-left: 300px;
-  padding-right: 300px;
+  padding-right: 250px;
+  padding-bottom: 275px;
 }
-
-.cats { grid-area: CATS; }
-
-.dogs { grid-area: DOGS; }
 
 .page-grid-container {
   display: grid;
