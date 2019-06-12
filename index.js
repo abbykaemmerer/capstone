@@ -4,6 +4,10 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 import * as states from './store';
 
+import Navigo from 'navigo';
+
+const router = new Navigo(window.location.origin);
+
 const root = document.querySelector('#root');
 
 function render(state){
@@ -14,6 +18,8 @@ ${Navigation(state)}
 ${Main(state)}
 ${Footer(state)}
 `;
+
+    router.updatePageLinks();
 }
 
 render(states.Home);
