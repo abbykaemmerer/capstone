@@ -5,13 +5,13 @@ export default (state) => `      <main>
 </section>
     <div class="links">
       <div id='conditions1'>
-      <a href="/dog-obesity.html">Obesity</a>
-      <a href="/dog-skin.html">Poor Skin & Coat Condition</a>
-      <a href="/dog-pancreatitis.html">Pancreatitis</a>
+      <a href="./Dogobesity">Obesity</a>
+      <a href="./Skin">Poor Skin & Coat Condition</a>
+      <a href="./Pancreatitis">Pancreatitis</a>
       </div>
       <div id= 'conditions2'>
-      <a href="/dog-diabetes.html">Diabetes</a>
-      <a href="/dog-preg.html">Pregnancy</a>
+      <a href="./Dogdiabetes">Diabetes</a>
+      <a href="./Dogpreg">Pregnancy</a>
       </div>
     </div>
     <div class="pictures">
