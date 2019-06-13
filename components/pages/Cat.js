@@ -1,12 +1,11 @@
 export default (state) => `    <main>
 <div class="page-grid-container">
 <h1>${state.subtitle}</h1>
-    <div class="description">This is the page that will display all the cat conditions</div>
-</section>
+    <div class="description">This paragraph will details cat conditions and best practices.</div>
     <div class="links">
       <div id='conditions1'>
       <a href="/cat-obesity.html">Obesity</a>
-      <a href="/cat-diabetes.html">Diabetes</a>
+      <a href="./DiabetesCat">Diabetes</a>
       <a href="/cat-ut.html">Urinary Tract</a>
       </div>
       <div id= 'conditions2'>
