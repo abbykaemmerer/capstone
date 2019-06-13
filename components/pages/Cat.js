@@ -4,13 +4,13 @@ export default (state) => `    <main>
     <div class="description">This paragraph will details cat conditions and best practices.</div>
     <div class="links">
       <div id='conditions1'>
-      <a href="/cat-obesity.html">Obesity</a>
-      <a href="./DiabetesCat">Diabetes</a>
-      <a href="/cat-ut.html">Urinary Tract</a>
+      <a href="./ObesityCat">Obesity</a>
+      <a href="./Diabetescat">Diabetes</a>
+      <a href="./Ut">Urinary Tract</a>
       </div>
       <div id= 'conditions2'>
-      <a href="/cat-hairballs.html">Hair Balls</a>
-      <a href="/cat-preg.html">Pregnancy</a>
+      <a href="./Hairballs">Hair Balls</a>
+      <a href="./Pregcat">Pregnancy</a>
       </div>
     </div>
     <div class="pictures">
