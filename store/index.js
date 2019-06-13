@@ -25,3 +25,5 @@ export { default as Pancreatitis } from './Pancreatitis';
 export { default as Dogpreg } from './Dogpreg';
 
 export { default as Skin } from './Skin';
+
+export { default as Checkout } from './Checkout';

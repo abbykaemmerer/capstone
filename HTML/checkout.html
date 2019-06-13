@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" id= 'checkout-bg-image'>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Capstone Project</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+  <link href="https://fonts.googleapis.com/css?family=Slabo+27px&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div>
+      <section >
+        <nav>
+            <header>Title</header>
+      <ul class="nav-menu">
+        <li>
+          Menu
+        <ul id="dropdown">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="catpage.html">Cat</a></li>
+      <li><a href="dogpage.html">Dog</a></li>
+      <li><a href="shoppingcart.html">Shopping Cart</a></li>
+    </ul>
+    </li>
+    </ul>
+        </nav>
+
+
+    <main>
+    <div class="grid-container">
+      <div class="order-summary">Order Summary</div>
+
+      <form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" id="order-form" >
+
+      <div class="name">
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name">
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" name="userEmail" id="user-email" placeholder="user@example.com"/>
+      </div>
+      <div class="card"></div>
+      <label for="credit-card">Credit Card:</label>
+      <input type="number" name="card" id="card">
+      <div class="address"></div>
+      <label for="address">Billing Address:</label>
+      <input type="text" name="Address" id="address">
+      <div class="marketing">
+          <label for="marketing">How did you hear about us?</label>
+          <select name="marketing" id="marketing">
+            <optgroup label="Online">
+              <option value="social">Social Media (FB, Twitter, LinkedIn)</option>
+              <option value="github">Online Portfolio (GitHub)</option>
+              <option value="search">Search Engine</option>
+              <option value="email">Email</option>
+            </optgroup>
+            <optgroup label="In-Person">
+              <option value="networking">We met at a networking event</option>
+              <option value="referral">Personal referral</option>
+              <option value="random">We met somewhere else</option>
+            </optgroup>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="submit">
+            <input type="submit" value="Checkout!" />
+            <input type="reset" value="Clear Form" />
+          </div>
+    </div>
+
+    </main>
+
+    <footer></footer>
+      </div>
+
+</body>
+</html>
+
