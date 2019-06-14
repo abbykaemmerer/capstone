@@ -98,5 +98,5 @@ export default (state) =>    ` <main>
 </div>
 
 
-<a class="check-out"><a href="checkout.html">Proceed to Checkout</a></a>
+<a class="check-out"><a href="./Checkout">Proceed to Checkout</a></a>
 </main>`;
