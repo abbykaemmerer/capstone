@@ -171,24 +171,24 @@ a:visited {
   margin-right: 50px;
 }
 
-.description {
+.item-description {
   padding-top: 10px;
   margin-right: 60px;
   width: 115px;
 }
 
-.description span {
+.item-description span {
   display: block;
   font-size: 14px;
   color: #43484d;
   font-weight: 400;
 }
 
-.description span:first-child {
+.item-description span:first-child {
   margin-bottom: 5px;
 }
 
-.description span:last-child {
+.item-description span:last-child {
   font-weight: 300;
   margin-top: 8px;
   color: #86939e;
@@ -215,10 +215,10 @@ button[class*=btn] {
   border: none;
   cursor: pointer;
 }
-.minus-btn img {
+.minus-button img {
   margin-bottom: 3px;
 }
-.plus-btn img {
+.plus-button img {
   margin-top: 2px;
 }
 
@@ -252,7 +252,7 @@ input:focus {
   }
   .image,
   .quantity,
-  .description {
+  .item-description {
     width: 100%;
     text-align: center;
     margin: 6px 0;
@@ -260,6 +260,14 @@ input:focus {
   .buttons {
     margin-right: 20px;
   }
+}
+
+.checkout-button{
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  font-weight: bolder;
+  font-size: 18px;
 }
 /* Check Out */
 .row {

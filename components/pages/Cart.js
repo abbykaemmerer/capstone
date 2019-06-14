@@ -1,4 +1,4 @@
-export default (state) =>    ` <main>
+export default () =>    ` <main>
 <div class="shopping-cart">
 
   <div class="shopping-cart-title">
@@ -16,9 +16,8 @@ export default (state) =>    ` <main>
     </div>
 
     <div class="item-description">
-      <span>Common Projects</span>
-      <span>Bball High</span>
-      <span>White</span>
+      <span>Product 1</span>
+      <span>Description</span>
     </div>
 
     <div class="quantity">
@@ -46,9 +45,8 @@ export default (state) =>    ` <main>
       </div>
 
       <div class="item-description">
-        <span>Our Legancy</span>
-        <span>Brushed Scarf</span>
-        <span>Blue</span>
+          <span>Product 2</span>
+          <span>Description</>
       </div>
 
       <div class="quantity">
@@ -76,9 +74,8 @@ export default (state) =>    ` <main>
         </div>
 
         <div class="item-description">
-          <span>Maison Margiela</span>
-          <span>Future Sneakers</span>
-          <span>White</span>
+          <span>Product 3</span>
+          <span>Description</span>
         </div>
 
         <div class="quantity">
@@ -98,5 +95,5 @@ export default (state) =>    ` <main>
 </div>
 
 
-<a class="check-out"><a href="./Checkout">Proceed to Checkout</a></a>
+<a href="./Checkout" class="checkout-button">Proceed to Checkout</a>
 </main>`;
