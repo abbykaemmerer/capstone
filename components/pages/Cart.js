@@ -22,13 +22,13 @@ export default () =>    ` <main>
 
     <div class="quantity">
       <button class="plus-button" type="button" name="button">
-        <img src="" alt="" />
+        <i class="fas fa-plus"></i>
       </button>
 
     <input type="text" name="name" value="1">
 
     <button class="minus-button" type="button" name="button">
-      <img src="" alt="" />
+      <i class="fas fa-minus"></i>
     </button>
     </div>
     <div class="total-price">$2342</div>
@@ -51,13 +51,13 @@ export default () =>    ` <main>
 
       <div class="quantity">
         <button class="plus-button" type="button" name="button">
-          <img src="" alt="" />
+          <i class="fas fa-plus"></i>
         </button>
 
       <input type="text" name="name" value="1">
 
       <button class="minus-button" type="button" name="button">
-        <img src="" alt="" />
+        <i class="fas fa-minus"></i>
       </button>
       </div>
       <div class="total-price">$22</div>
@@ -80,13 +80,13 @@ export default () =>    ` <main>
 
         <div class="quantity">
           <button class="plus-button" type="button" name="button">
-            <img src="" alt="" />
+            <i class="fas fa-plus"></i>
           </button>
 
         <input type="text" name="name" value="1">
 
         <button class="minus-button" type="button" name="button">
-          <img src="" alt="" />
+          <i class="fas fa-minus"></i>
         </button>
         </div>
         <div class="total-price">$653</div>
