@@ -1,7 +1,7 @@
 export default (state) => `    <main>
 <div class="page-grid-container">
-<h1>${state.subtitle}</h1>
-    <div class="description"> <p>Essential tips for raising a healthy cat:
+
+    <div class="description"> <h1>${state.subtitle}</h1> <p>Essential tips for raising a healthy cat:
     <ul>
       <li>The BASICS: food, water, a litter box</li>
       <li>Cats are naturally playful- toys, catnip, and windows are all great enrichment</li>
