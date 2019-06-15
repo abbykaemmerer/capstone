@@ -56,7 +56,7 @@ export default () => `     <main>
           <label>
             <input type="checkbox" name="checked" id="sameaddress"> Shipping address same as billing
           </label>
-          <input type="submit" value="Continue to checkout" class="btn">
+          <input type="submit" value="Submit Order" class="btn">
         </form>
     </div>
   </div>
