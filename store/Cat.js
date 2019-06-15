@@ -6,7 +6,7 @@ import img3 from '../docs/cat-small3.jpg';
 
 export default {
     'pageContent': 'Cat',
-    'title': 'Welcome',
+    'title': '4PAWS',
     'subtitle': 'Cats',
     'image': img,
     'image1': img1,
