@@ -1,5 +1,6 @@
 html {
   font-family: Raleway;
+  background-color: #617f7f;
 }
 
 header {
@@ -362,83 +363,3 @@ span.price {
   }
 }
 
-/* Images */
-
-#dog-bg-image {
-  background-image: url('/docs/dog-header.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#dog-obesity-bg-image {
-  background-image: url('/docs/smiling-lab.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#dog-preg-bg-image {
-  background-image: url('/docs/happy-puppy.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#dog-diabetes-bg-image {
-  background-image: url('/docs/sad-beagle.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#dog-panc-bg-image {
-  background-image: url('/docs/sleeping-french.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#dog-skin-bg-image {
-  background-image: url('/docs/pug-in-blanket.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cat-bg-image {
-  background-image: url('/docs/cat-page-header.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cat-obesity-bg-image {
-  background-image: url('/docs/kitten-on-walk.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cat-preg-bg-image {
-  background-image: url('/docs/mom-and-kitten.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cat-diabetes-bg-image {
-  background-image: url('/docs/sleepy-cat.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cat-ut-bg-image {
-  background-image: url('/docs/cat-scatches.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#cat-hairballs-bg-image {
-  background-image: url('/docs/worried-cat.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#checkout-bg-image {
-  background-image: url('/docs/home-opt1.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1000px;
-}
