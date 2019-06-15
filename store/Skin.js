@@ -3,7 +3,7 @@ import links from './Links';
 
 export default {
     'pageContent': 'Skin',
-    'title': 'Welcome',
+    'title': '4PAWS',
     'subtitle': 'Dogs',
     'links': links
 

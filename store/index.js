@@ -28,4 +28,3 @@ export { default as Skin } from './Skin';
 
 export { default as Checkout } from './Checkout';
 
-export { default as Car } from './Cart';

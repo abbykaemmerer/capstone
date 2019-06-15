@@ -3,7 +3,7 @@ import links from './Links';
 
 export default {
     'pageContent': 'Pregcat',
-    'title': 'Welcome',
+    'title': '4PAWS',
     'subtitle': 'Cats',
     'links': links
 

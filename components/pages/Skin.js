@@ -7,5 +7,3 @@ export default () => `
     </div>
 </div>
 </main>`;
-
-let products = [ 'food', 'toy', 'book', 'medicine' ];

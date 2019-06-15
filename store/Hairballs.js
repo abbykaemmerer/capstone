@@ -3,7 +3,7 @@ import links from './Links';
 
 export default {
     'pageContent': 'Hairballs',
-    'title': 'Welcome',
+    'title': '4PAWS',
     'subtitle': 'Cats',
     'links': links
 

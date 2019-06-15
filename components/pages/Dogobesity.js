@@ -8,4 +8,3 @@ export default () => `
 </div>
 </main>`;
 
-let products = [ 'food', 'toy', 'book', 'medicine' ];

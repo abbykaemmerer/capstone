@@ -40,3 +40,6 @@ router
     })
     .on('/', () => render(states.Home))
     .resolve();
+
+
+let products = [ 'food', 'toy', 'book', 'medicine' ];
