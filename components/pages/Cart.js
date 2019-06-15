@@ -1,4 +1,4 @@
-export default () =>    ` <main>
+export default (state) =>    ` <main>
 <div class="shopping-cart">
 
   <div class="shopping-cart-title">
@@ -6,13 +6,9 @@ export default () =>    ` <main>
   </div>
 
   <div class="item">
-    <div class="buttons">
-      <span class="delete-button"></span>
-      <span class="like-button"></span>
-    </div>
 
     <div class="item-image">
-      <img src="../docs/confirmation-page.jpg" alt="" />
+      <img src="${state.image2}" alt="" height="200" width="175"/>
     </div>
 
     <div class="item-description">
@@ -35,13 +31,9 @@ export default () =>    ` <main>
   </div>
 
   <div class="item">
-      <div class="buttons">
-        <span class="delete-button"></span>
-        <span class="like-button"></span>
-      </div>
 
       <div class="item-image">
-        <img src="../docs/friends.jpg" alt="" />
+        <img src="${state.image1}" alt="" height="200" width="175" />
       </div>
 
       <div class="item-description">
@@ -64,13 +56,9 @@ export default () =>    ` <main>
     </div>
 
     <div class="item">
-        <div class="buttons">
-          <span class="delete-button"></span>
-          <span class="like-button"></span>
-        </div>
 
         <div class="item-image">
-          <img src="../docs/sassyglasses.jpg" alt="" />
+          <img src="${state.image3}" alt="" height="200" width="175"/>
         </div>
 
         <div class="item-description">
@@ -91,9 +79,9 @@ export default () =>    ` <main>
         </div>
         <div class="total-price">$653</div>
       </div>
-
+    <div class="checkout-button">
+      <a href="./Checkout"> Proceed to Checkout </a>
+    </div>
 </div>
 
-
-<a href="./Checkout" class="checkout-button">Proceed to Checkout</a>
 </main>`;
