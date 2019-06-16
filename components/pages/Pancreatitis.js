@@ -14,7 +14,10 @@ export default () => `
     </ul>
     </p></div>
     <div class="links">
-      <p>This section will display recommended products</p>
+    <p>Recommended products:</p>
+    <div class="products">
+    </div>
+    </div>
     </div>
 </div>
 </main>`;
