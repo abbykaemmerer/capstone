@@ -1,7 +1,22 @@
 export default () => `
 <main>
 <div class="page-grid-container">
-    <div class="description">This paragraph will describe diabetes in cats</div>
+    <div class="description">
+    <p> The inability to produce insulin to balance blood sugar is an increasing concern among cats.
+    <ul>Symptoms:
+    <li> Increased thirst </li>
+    <li> Increased appetite </li>
+    <li> Vomiting </li>
+    <li> Dehydration </li>
+    </ul>
+    <ul>Health Risks:
+    <li> Severe depression </li>
+    <li> Decreased motor functions </li>
+    <li> Coma </li>
+    <li> Death</li>
+    </ul>
+    </p>
+    </div>
     <div class="links">
       <p>This section will display recommended products</p>
     </div>

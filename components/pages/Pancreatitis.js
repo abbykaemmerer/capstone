@@ -1,7 +1,18 @@
 export default () => `
 <main>
 <div class="page-grid-container">
-    <div class="description">This paragraph will describe pancreatitis in dogs.</div>
+    <div class="description"><p> Pancreatitis is when the pancreas becomes inflamed.
+    <ul>Symptoms:
+    <li> Vomiting </li>
+    <li> Lack of appetite </li>
+    <li> Belly pain</li>
+    <li> Fever or low body temp </li>
+    </ul>
+    <ul>Health Risks:
+    <li> Obesity </li>
+    <li> Diarrhea </li>
+    </ul>
+    </p></div>
     <div class="links">
       <p>This section will display recommended products</p>
     </div>
