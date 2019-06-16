@@ -81,16 +81,14 @@ a:visited {
 .home-container {
   display: flex;
   justify-content: space-evenly;
-  padding-top: 200px;
-  padding-right: 250px;
-  padding-bottom: 150px;
+  padding: 75px 0px 275px;
 }
 
 .page-grid-container {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.1fr .5fr .5fr;
-  grid-template-areas: "." "description" "links" "pictures";
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "description" "links" "pictures";
 }
 
 .pictures {
@@ -105,8 +103,7 @@ a:visited {
   grid-area: links;
   font-size: 30px;
   border: 3px #223e40;
-  margin-bottom: 100px;
-  margin-top: 50px;
+  margin-top: 150px;
 }
 
 .links a {
@@ -129,15 +126,13 @@ a:visited {
 #conditions1 {
   display: flex;
   justify-content: space-between;
-  padding-right: 250px;
-  padding-bottom: 25px;
+  padding: 0 50px 25px;
 }
 
 #conditions2 {
   display: flex;
-  justify-content: space-evenly;
-  padding-left: 100px;
-  padding-right: 150px;
+  justify-content: space-around;
+  padding: 0 50px;
 }
 
 /*Shopping Cart*/
