@@ -42,4 +42,3 @@ router
     .resolve();
 
 
-let products = [ 'food', 'toy', 'book', 'medicine' ];
