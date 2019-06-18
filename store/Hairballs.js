@@ -1,5 +1,5 @@
 import links from './Links';
-
+import img1 from '../docs/catproduct.jpg';
 
 export default {
     'pageContent': 'Hairballs',
@@ -11,22 +11,22 @@ export default {
 
 
 let products = {
-    catHairballs: {
-        productOne: {
+    "catHairballs": {
+        "productOne": {
             'name': 'Hairball Care Canned Wet Food',
-            img: ,
+            'image': img1,
             'price': '$15.00',
             'description': 'Controls hairball development with an exclusive blend of fibers that help with digestion.'
         },
-        productTwo: {
+        "productTwo": {
             'name': 'Hairball Control Cat Treats',
-            img: ,
+            'image': img1,
             'price': '$22.00',
             'description': 'Help control hairballs when fed with hairball control diet.'
         },
-        productThree: {
+        "productThree": {
             'name': 'Cat Hairball Relief Digestive Aid',
-            img: ,
+            'image': img1,
             'price': '$6.00',
             'description': 'Provides safe support for a healthy digestive system while helping prevent hairballs.'
         },

@@ -1,5 +1,5 @@
 import links from './Links';
-
+import img2 from '../docs/dogproduct.jpg';
 
 export default {
     'pageContent': 'Pancreatitis',
@@ -11,22 +11,22 @@ export default {
 
 
 let products = {
-    dogPancreatitis: {
-        productOne: {
+    'dogPancreatitis': {
+        'productOne': {
             'name': 'Dog Food for Sensitive Stomachs',
-            img: ,
+            'image': img2,
             'price': '$33.00',
             'description': 'Whole grain blend will provide your dogs with a nutrient rich balanced diet. Made with easily digestible single source protein, probiotics and high fiber.'
         },
-        productTwo: {
+        'productTwo': {
             'name': 'Digestive Enzymes for Dogs',
-            img: ,
+            'image': img2,
             'price': '$25.00',
             'description': 'Helps support a healthy digestive system.'
         },
-        productThree: {
+        'productThree': {
             'name': 'Dog Digestive Support Soft Chew Treats',
-            img: ,
+            'image': img2,
             'price': '$10.00',
             'description': 'Helps support healthy digestion and soothe sensitive stomachs.'
         },

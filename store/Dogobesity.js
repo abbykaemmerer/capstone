@@ -1,5 +1,5 @@
 import links from './Links';
-
+import img2 from '../docs/dogproduct.jpg';
 
 export default {
     'pageContent': 'Dogobesity',
@@ -11,22 +11,22 @@ export default {
 
 
 let products = {
-    dogObesity: {
-        productOne: {
+    'dogObesity': {
+        'productOne': {
             'name': 'Fitness Vest for Dogs',
-            img: ,
+            'image': img2,
             'price': '$110.00',
             'description': 'Health improving best that helps build strength, performance, muscle growth, power, speed and overall health of your dog.'
         },
-        productTwo: {
+        'productTwo': {
             'name': 'Slow Feed Dog Bowl',
-            img: ,
+            'image': img2,
             'price': '$15.00',
             'description': 'Designed to slow down eating for dogs and cats'
         },
-        productThree: {
+        'productThree': {
             'name': 'Joint Health Support Supplements for Dogs',
-            img: ,
+            'image': img2,
             'price': '$22.00',
             'description': 'Supports a healthy weight with a proprietary blend of ingredients.'
         },

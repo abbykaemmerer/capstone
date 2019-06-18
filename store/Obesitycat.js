@@ -1,5 +1,5 @@
 import links from './Links';
-
+import img1 from '../docs/catproduct.jpg';
 
 export default {
     'pageContent': 'Obesitycat',
@@ -11,22 +11,22 @@ export default {
 
 
 let products = {
-    catObesity: {
-        productOne: {
+    'catObesity': {
+        'productOne': {
             'name': 'Weight Control Adult Dry Cat Food',
-            img: ,
+            'image': img1,
             'price': '$35.00',
             'description': 'Made with optimal blend of protein and calories to help your cat achieve and maintain an ideal body weight.'
         },
-        productTwo: {
+        'productTwo': {
             'name': 'Slow Feed Cat Bowl',
-            img: ,
+            'image': img1,
             'price': '$15.00',
             'description': 'Designed to slow down eating for dogs and cats'
         },
-        productThree: {
+        'productThree': {
             'name': 'Assorted Cat Toys',
-            img: ,
+            'image': img1,
             'price': '$13.00',
             'description': "Cat toys stimulate your cats' hunting instincts, helping them stay fit and healthy."
         },

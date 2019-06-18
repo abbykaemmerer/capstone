@@ -1,5 +1,5 @@
 import links from './Links';
-
+import img1 from '../docs/catproduct.jpg';
 
 export default {
     'pageContent': 'Pregcat',
@@ -11,22 +11,22 @@ export default {
 
 
 let products = {
-    catPregnancy: {
-        productOne: {
+    "catPregnancy": {
+        "productOne": {
             'name': 'Mother and Kitten Dry Cat Food',
-            img: ,
+            'image': img1,
             'price': '$20.00',
             'description': 'Formulated for the specific needs of growing kittens and mothers.'
         },
-        productTwo: {
+        "productTwo": {
             'name': 'Premium Pet Cave',
-            img: ,
+            'image': img1,
             'price': '$35.00',
             'description': 'A soft, warm and washable bed that your cat will not want to leave.'
         },
-        productThree: {
+        "productThree": {
             'name': 'Multivitamin for Cats',
-            img: ,
+            'image': img1,
             'price': '$17.00',
             'description': 'Keep your pet healthy as they go through pregnancy.'
         },
