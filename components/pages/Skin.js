@@ -1,7 +1,7 @@
-export default () => `
+export default (state) => `
 <main>
 <div class="page-grid-container">
-    <div class="description"><p> Skin and coat conditions in dogs are the easiest way to assess a dog's health. Constant scratching and licking can be signs of a skin condition.
+    <div class="description"><h1>${state.subtitle}</h1><p> Skin and coat conditions in dogs are the easiest way to assess a dog's health. Constant scratching and licking can be signs of a skin condition.
     <ul>Possible problems:
     <li> Allergy </li>
     <li> Yeast infection </li>

@@ -1,10 +1,12 @@
 import links from './Links';
 import img2 from '../docs/dogproduct.jpg';
+import imgB from '../docs/pug-in-blanket.jpg';
 
 export default {
     'pageContent': 'Skin',
     'title': '4PAWS',
-    'subtitle': 'Dogs',
+    'subtitle': 'Skin and Coat Conditions',
+    'backgroundImage': imgB,
     'links': links
 
 };

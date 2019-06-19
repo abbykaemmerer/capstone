@@ -1,10 +1,12 @@
 import links from './Links';
 import img2 from '../docs/dogproduct.jpg';
+import imgB from '../docs/sad-beagle.jpg';
 
 export default {
     'pageContent': 'Pancreatitis',
     'title': '4PAWS',
-    'subtitle': 'Dogs',
+    'subtitle': 'Pancreatitis',
+    'backgroundImage': imgB,
     'links': links
 
 };

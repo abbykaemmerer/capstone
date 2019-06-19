@@ -1,10 +1,12 @@
 import links from './Links';
 import img2 from '../docs/dogproduct.jpg';
+import imgB from '../docs/smiling-lab.jpg';
 
 export default {
     'pageContent': 'Dogobesity',
     'title': '4PAWS',
-    'subtitle': 'Dogs',
+    'subtitle': 'Obesity',
+    'backgroundImage': imgB,
     'links': links
 
 };

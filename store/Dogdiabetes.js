@@ -1,30 +1,32 @@
 import links from './Links';
 import img2 from '../docs/dogproduct.jpg';
+import imgB from '../docs/sad-pug.jpg';
 
 export default {
     'pageContent': 'Dogdiabetes',
     'title': '4PAWS',
-    'subtitle': 'Dogs',
+    'subtitle': 'Diabetes',
+    'backgroundImage': imgB,
     'links': links
 
 };
 
 
 let products = {
-    "dogDiabetes": {
-        "productOne": {
+    'dogDiabetes': {
+        'productOne': {
             'name': 'Pet Blood Sugar Support',
             'image': img2,
             'price': '$60.00',
             'description': "Enhances your dog's quality of life during blood gluclose management."
         },
-        "productTwo": {
+        'productTwo': {
             'name': 'Guide to Diabetes in Dogs',
             'image': img2,
             'price': '$12.00',
             'description': 'A comprehensive book to teach you all about diabetes in dogs and how to improve their lives.'
         },
-        "productThree": {
+        'productThree': {
             'name': 'Diabetic Treats',
             'image': img2,
             'price': '$21.00',

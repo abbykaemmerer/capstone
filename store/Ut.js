@@ -1,10 +1,12 @@
 import links from './Links';
 import img1 from '../docs/catproduct.jpg';
+import imgB from '../docs/sleepy-cat.jpg';
 
 export default {
     'pageContent': 'Ut',
     'title': '4PAWS',
-    'subtitle': 'Cats',
+    'subtitle': 'Urinary Tract Disease',
+    'backgroundImage': imgB,
     'links': links
 
 };

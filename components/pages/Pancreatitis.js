@@ -1,7 +1,7 @@
-export default () => `
+export default (state) => `
 <main>
 <div class="page-grid-container">
-    <div class="description"><p> Pancreatitis is when the pancreas becomes inflamed.
+    <div class="description"><h1>${state.subtitle}</h1><p> Pancreatitis is when the pancreas becomes inflamed.
     <ul>Symptoms:
     <li> Vomiting </li>
     <li> Lack of appetite </li>

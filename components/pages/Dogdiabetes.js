@@ -1,7 +1,7 @@
-export default () => `
+export default (state) => `
 <main>
 <div class="page-grid-container">
-    <div class="description">    <p> The inability to produce insulin to balance blood sugar is an increasing concern among cats.
+    <div class="description">   <h1>${state.subtitle}</h1> <p> The inability to produce insulin to balance blood sugar is an increasing concern among cats.
     <ul>Symptoms:
     <li> Increased thirst </li>
     <li> Increased appetite </li>

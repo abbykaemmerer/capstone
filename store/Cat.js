@@ -1,6 +1,6 @@
 import links from './Links';
 import img from '../docs/cat-page-header.jpg';
-import img1 from '../docs/cat-small1.jpg';
+import img1 from '../docs/cat-scatches.jpg';
 import img2 from '../docs/cat-small2.jpg';
 import img3 from '../docs/cat-small3.jpg';
 

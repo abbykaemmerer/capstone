@@ -1,11 +1,13 @@
 import links from './Links';
 import img1 from '../docs/catproduct.jpg';
+import bImg from '../docs/kitten-on-walk.jpg';
 
 
 export default {
     'pageContent': 'Diabetescat',
     'title': '4PAWS',
-    'subtitle': 'Cat',
+    'subtitle': 'Diabetes',
+    'backgroundImage': bImg,
     'links': links
 
 };

@@ -1,7 +1,7 @@
-export default () => `
+export default (state) => `
 <main>
 <div class="page-grid-container">
-    <div class="description"> <p> Obesity is a nutritional disease is defined by an excess of body fat.
+    <div class="description"><h1>${state.subtitle}</h1> <p> Obesity is a nutritional disease is defined by an excess of body fat.
     <ul>Symptoms:
     <li> Weight gain </li>
     <li> Excess body fat </li>
