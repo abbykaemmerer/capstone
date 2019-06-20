@@ -7,30 +7,24 @@ export default {
     'title': '4PAWS',
     'subtitle': 'Pancreatitis',
     'backgroundImage': imgB,
-    'links': links
-
-};
-
-
-let products = {
-    'dogPancreatitis': {
-        'productOne': {
-            'name': 'Dog Food for Sensitive Stomachs',
-            'image': img2,
-            'price': '$33.00',
-            'description': 'Whole grain blend will provide your dogs with a nutrient rich balanced diet. Made with easily digestible single source protein, probiotics and high fiber.'
-        },
-        'productTwo': {
-            'name': 'Digestive Enzymes for Dogs',
-            'image': img2,
-            'price': '$25.00',
-            'description': 'Helps support a healthy digestive system.'
-        },
-        'productThree': {
-            'name': 'Dog Digestive Support Soft Chew Treats',
-            'image': img2,
-            'price': '$10.00',
-            'description': 'Helps support healthy digestion and soothe sensitive stomachs.'
-        },
+    'links': links,
+    'productOne': {
+        'name': 'Dog Food for Sensitive Stomachs',
+        'image': img2,
+        'price': '$33.00',
+        'description': 'Whole grain blend will provide your dogs with a nutrient rich balanced diet. Made with easily digestible single source protein, probiotics and high fiber.'
+    },
+    'productTwo': {
+        'name': 'Digestive Enzymes for Dogs',
+        'image': img2,
+        'price': '$25.00',
+        'description': 'Helps support a healthy digestive system.'
+    },
+    'productThree': {
+        'name': 'Dog Digestive Support Soft Chew Treats',
+        'image': img2,
+        'price': '$10.00',
+        'description': 'Helps support healthy digestion and soothe sensitive stomachs.'
     }
 };
+

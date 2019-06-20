@@ -15,6 +15,7 @@ nav {
   position: sticky;
   margin-bottom: 150px;
 }
+
 h3 {
   margin: 0 auto;
   font-size: 20px;
@@ -134,7 +135,66 @@ a:visited {
   justify-content: space-around;
   padding: 0 50px;
 }
+/*Product Displays*/
+.condition-grid-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr .75fr;
+  grid-template-areas: "condition-description" "condition-products";
+}
 
+.condition-description {
+  grid-area: condition-description;
+  background: rgba(255,255,255,.6);
+  border: 1px solid #E1E8EE;
+  margin: 70px 70px 0px;
+  padding: 0 30px;
+}
+
+.condition-products {
+  grid-area: condition-products;
+  margin-top: 100px;
+}
+
+.products {
+  display: flex;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  font-size: 18px;
+  background: #E1E8EE
+}
+.prodName {
+  font-size: 22px;
+}
+.prodDescrip {
+  padding: 15px;
+}
+.prodPrice {
+  color: grey;
+  font-size: 22px;
+  padding-bottom: 10px;
+}
+
+.card button {
+  border: none;
+  outline: 0;
+  padding: 12px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+.card button:hover {
+  opacity: 0.7;
+}
 /*Shopping Cart*/
 .shopping-cart {
   width: 750px;

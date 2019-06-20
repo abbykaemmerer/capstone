@@ -10,7 +10,6 @@ function buildNavHTML(stateLinks){
 
 export default (state) => `
 <nav>
-
 <ul class="nav-menu">
 <li>
 Menu
@@ -20,3 +19,5 @@ ${buildNavHTML(state.links.dropdown)}
 </li>
 </ul>
 </nav>`;
+
+
