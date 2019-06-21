@@ -89,13 +89,24 @@ a:visited {
   padding: 75px 0px 275px;
 }
 
-.pictures {
- height: 33%;
- width: 100%
+/*Cat and Dog Pages */
+
+.page-grid-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "description" "links" "pictures";
+}
+
+.description {
+  grid-area: description;
+  background: rgba(255,255,255,.6);
+  border: 1px solid #E1E8EE;
+  margin: 70px 70px 0px;
+  padding: 0 30px;
 }
 
 .links {
-  height: 33%;
+  grid-area: links;
   font-size: 30px;
   border: 3px #223e40;
   margin-top: 150px;
@@ -110,17 +121,14 @@ a:visited {
   font-size: .65em;
 }
 
-.description {
-  height: 33%;
-  background: rgba(255,255,255,.6);
-  border: 1px solid #E1E8EE;
-  margin: 70px 70px 0px;
-  padding: 0 30px;
-}
+.pictures {
+  grid-area: pictures;
+  }
 
-.pictures img {
-  width: 33%;
-}
+  .pictures img {
+    width: 33%;
+  }
+
 
 #conditions1 {
   display: flex;
