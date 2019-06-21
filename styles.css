@@ -147,17 +147,23 @@ a:visited {
   grid-area: condition-description;
   background: rgba(255,255,255,.6);
   border: 1px solid #E1E8EE;
-  margin: 70px 70px 0px;
+  margin: 70px;
   padding: 0 30px;
 }
 
 .condition-products {
   grid-area: condition-products;
-  margin-top: 100px;
+
+}
+
+.condition-products h2 {
+  margin: 0px 20px 50px;
+  text-align: center;
 }
 
 .products {
   display: flex;
+  padding: 50px;
 }
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
