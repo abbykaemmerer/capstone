@@ -24,9 +24,9 @@ export default (state) => `      <main>
       </div>
     </div>
     <div class="pictures">
-    <img src="${state.image1}" alt="" height="410" width="480">
-    <img src="${state.image2}" alt="" height="410" width="480">
-    <img src="${state.image3}".jpg" alt="" height="410" width="480">
+    <img src="${state.image1}" alt="">
+    <img src="${state.image2}" alt="">
+    <img src="${state.image3}".jpg" alt="">
     </div>
   </div>
 </main>`;

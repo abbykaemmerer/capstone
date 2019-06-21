@@ -89,23 +89,13 @@ a:visited {
   padding: 75px 0px 275px;
 }
 
-.page-grid-container {
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-areas: "description" "links" "pictures";
-}
-
 .pictures {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: ". . .";
-  grid-area: pictures;
+ height: 33%;
+ width: 100%
 }
 
 .links {
-  grid-area: links;
+  height: 33%;
   font-size: 30px;
   border: 3px #223e40;
   margin-top: 150px;
@@ -121,11 +111,15 @@ a:visited {
 }
 
 .description {
-  grid-area: description;
+  height: 33%;
   background: rgba(255,255,255,.6);
   border: 1px solid #E1E8EE;
   margin: 70px 70px 0px;
   padding: 0 30px;
+}
+
+.pictures img {
+  width: 33%;
 }
 
 #conditions1 {
@@ -144,7 +138,9 @@ a:visited {
 .condition-description {
   background: rgba(255,255,255,.6);
   border: 1px solid #E1E8EE;
-  height: 50%
+  height: 50%;
+  margin: 70px;
+  padding: 0 30px;
 }
 
 .condition-products {
