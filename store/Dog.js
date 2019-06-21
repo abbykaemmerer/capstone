@@ -2,7 +2,7 @@ import links from './Links';
 import img from '../docs/dog-header.jpg';
 import img1 from '../docs/dog-small1.jpg';
 import img2 from '../docs/dog-small2.jpg';
-import img3 from '../docs/dog-small3.jpg';
+import img3 from '../docs/sleeping-french.jpg';
 
 export default {
     'pageContent': 'Dog',
