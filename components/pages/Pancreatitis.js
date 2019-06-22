@@ -23,7 +23,7 @@ export default (state) => `
 
         <div class="card">
             <div class="prodImg">
-            ${state.productOne.image}
+            <img src= "${state.productOne.image}" alt="" height=300>
             </div>
             <div class="prodName">
             ${state.productOne.name}
@@ -41,7 +41,7 @@ export default (state) => `
 
         <div class="card">
             <div class="prodImg">
-            ${state.productTwo.image}
+            <img src= "${state.productTwo.image}" alt="" height=300>
             </div>
             <div class="prodName">
             ${state.productTwo.name}
@@ -59,7 +59,7 @@ export default (state) => `
 
         <div class="card">
             <div class="prodImg">
-            ${state.productThree.image}
+            <img src= "${state.productThree.image}" alt="" height=300>
             </div>
             <div class="prodName">
             ${state.productThree.name}
