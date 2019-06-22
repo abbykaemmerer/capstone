@@ -25,7 +25,9 @@ export default (state) => `
 
                 <div class="card">
                     <div class="prodImg">
-                    ${state.productOne.image}
+                    console.log(state.productOne.image);
+                    <img src= "${state.productOne.image}" alt="" height=100>
+                    console.log("hi")
                     </div>
                     <div class="prodName">
                     ${state.productOne.name}
@@ -36,7 +38,7 @@ export default (state) => `
                     <div class="prodPrice">
                     ${state.productOne.price}
                     </div>
-                    <div class="prodButton">
+                    <div id="prodButton">
                     <button>Add to Cart</button>
                     </div>
                 </div>

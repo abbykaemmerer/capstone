@@ -2,6 +2,8 @@ import Header from './components/Header';
 import Navigation from './components/Navigation';
 import Main from './components/Main';
 import Footer from './components/Footer';
+import receipt from './store/receipt';
+
 import * as states from './store';
 
 import { capitalize } from 'lodash';
@@ -30,6 +32,7 @@ ${Footer(state)}
     }
 }
 
+
 render(states.Home);
 
 const links = document.querySelectorAll('nav a');
@@ -41,4 +44,14 @@ router
     .on('/', () => render(states.Home))
     .resolve();
 
+let x = document.getElementById('prodButton');
 
+if(states.pageContent === 'Cart'){
+    x.addEventListener('click', ((event) => {
+        receipt.image = states.Obesitycat.productOne.image;
+        receipt.name = states.Obesitycat.productOne.name;
+        receipt.description = states.Obesitycat.productOne.description;
+        receipt.qty = states.Obesitycat.productOne.qty;
+        receipt.price = states.Obesitycat.productOne.price;
+    }));
+}
