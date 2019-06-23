@@ -52,13 +52,16 @@ x.addEventListener('click', ((event) => {
     let img = states.Obesitycat.productOne.image;
     let name = states.Obesitycat.productOne.name;
     let price = states.Obesitycat.productOne.price;
+    let description = states.Obesitycat.productOne.description;
     let qty = states.Obesitycat.productOne.qty;
 
     if(typeof(Storage) !== 'undefined'){
         let receipt = {
             'image': img,
             'name': name,
-            'price': price
+            'price': price,
+            'description': description,
+            'qty': qty
         };
 
         localStorage.setItem('receipt', JSON.stringify(receipt));

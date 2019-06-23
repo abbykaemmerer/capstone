@@ -14,8 +14,9 @@ export default () =>
     <div id = 'image'><img src="${getObject.image}" height = 100></div>
     <div>
     <div id = 'name'>${getObject.name}</div>
-    <div id = 'price'>${localStorage.getItem('price')}</div><div id = 'name'>${localStorage.getItem('qty')}</div>
-    <div id = 'desc'></div>
+    <div id = 'price'>${getObject.price}</div>
+    <div id = 'qty'>${getObject.qty}</div>
+    <div id = 'desc'>${getObject.description}</div>
     </div>
     <div>
     <div id = 'plus-button'></div>
