@@ -1,5 +1,8 @@
-export default (receipt) =>
-    `<main>
+const getObject = JSON.parse(localStorage.getItem('receipt'));
+
+export default () =>
+    `
+<main>
 
 <div class="shopping-cart">
 
@@ -8,10 +11,11 @@ export default (receipt) =>
   </div>
 
   <div class="prod">
-    <div id = 'image'><img src="${localStorage.getItem('image')}" height=100></div>
+    <div id = 'image'><img src="${getObject.image}" height = 100></div>
     <div>
-    <div id = 'name'>${receipt.name}</div>
-    <div id = 'desc'>${receipt.description}</div>
+    <div id = 'name'>${getObject.name}</div>
+    <div id = 'price'>${localStorage.getItem('price')}</div><div id = 'name'>${localStorage.getItem('qty')}</div>
+    <div id = 'desc'></div>
     </div>
     <div>
     <div id = 'plus-button'></div>
@@ -24,8 +28,8 @@ export default (receipt) =>
 
 
 </main>`;
+console.log(getObject);
 
-console.log();
 
 { /* <div class="item-image">
 <img src="${state.image2}" alt="" height="200" width="175"/>
@@ -103,5 +107,3 @@ console.log();
 <a href="./Checkout"> Proceed to Checkout </a>
 </div>
 </div> */ }
-
-
