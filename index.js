@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 // import receipt from './store/receipt';
 
 import * as states from './store';
-
 import { capitalize } from 'lodash';
 
 import Navigo from 'navigo';
@@ -45,24 +44,33 @@ router
     .resolve();
 
 
-// console.log(receipt);
 let x = document.getElementById('prodButton');
+
 
 x.addEventListener('click', ((event) => {
     let img = states.Obesitycat.productOne.image;
+
     let name = states.Obesitycat.productOne.name;
     let price = states.Obesitycat.productOne.price;
     let description = states.Obesitycat.productOne.description;
     let qty = states.Obesitycat.productOne.qty;
+    let pageContent = states.Obesitycat.pageContent;
 
     if(typeof(Storage) !== 'undefined'){
+        let bill = [];
+
         let receipt = {
+            'pageContent': pageContent,
             'image': img,
             'name': name,
             'price': price,
             'description': description,
             'qty': qty
         };
+
+
+        bill.push(receipt);
+        console.log(bill);
 
         localStorage.setItem('receipt', JSON.stringify(receipt));
 
@@ -72,21 +80,16 @@ x.addEventListener('click', ((event) => {
         localStorage.setItem('name', name);
         localStorage.setItem('price', price);
         localStorage.setItem('qty', qty);
+
+        bill.push(receipt);
+        console.log(bill[0].description);
+
         // Retrieve
-        document.getElementById('result').innerHTML = localStorage.getItem('lastname');
+        // document.getElementById('result').innerHTML = localStorage.getItem('lastname');
     }
-    else{
-        document.getElementById('result').innerHTML = 'Sorry, your browser does not support Web Storage...';
-    }
-    // localStorage.setItem('image' =  states.Obesitycat.productOne.image )
-    // receipt.image = states.Obesitycat.productOne.image;
-    // receipt.name = states.Obesitycat.productOne.name;
-    // receipt.description = states.Obesitycat.productOne.description;
-    // receipt.qty = states.Obesitycat.productOne.qty;
-    // receipt.price = states.Obesitycat.productOne.price;
-    // console.log(receipt)
+    // else{
+    //     document.getElementById('result').innerHTML = 'Sorry, your browser does not support Web Storage...';
+    // }
 })
-
-
 );
 

@@ -2,7 +2,6 @@ import links from './Links';
 import imgB from '../docs/cat-small1.jpg';
 import img1 from '../docs/catproduct.jpg';
 
-
 export default {
     'pageContent': 'Obesitycat',
     'title': '4PAWS',

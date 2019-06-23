@@ -40,8 +40,6 @@ export default () =>
 </div>
 
 </main>`;
-console.log(getObject);
-
 
 { /* <div class="item-image">
 <img src="${state.image2}" alt="" height="200" width="175"/>
