@@ -1,7 +1,4 @@
-// let receipt = {
-//     'name': '',
-//     'description': '',
-//     'image': '',
-//     'price': '',
-//     'qty': 1,
-// };
+export default
+{
+
+};

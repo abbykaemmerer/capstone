@@ -1,5 +1,5 @@
-export default (receipt) =>    `
-<main>
+export default (receipt) =>
+    `<main>
 
 <div class="shopping-cart">
 
@@ -8,7 +8,7 @@ export default (receipt) =>    `
   </div>
 
   <div class="prod">
-    <div id = 'image'><img src="${receipt.image}"></div>
+    <div id = 'image'><img src="${localStorage.getItem('image')}" height=100></div>
     <div>
     <div id = 'name'>${receipt.name}</div>
     <div id = 'desc'>${receipt.description}</div>
@@ -24,6 +24,8 @@ export default (receipt) =>    `
 
 
 </main>`;
+
+console.log();
 
 { /* <div class="item-image">
 <img src="${state.image2}" alt="" height="200" width="175"/>
