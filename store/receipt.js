@@ -1,10 +1,7 @@
-
-let receipt = {
-    'name': '',
-    'description': '',
-    'image': '',
-    'price': '',
-    'qty': 1,
-};
-
-
+// let receipt = {
+//     'name': '',
+//     'description': '',
+//     'image': '',
+//     'price': '',
+//     'qty': 1,
+// };

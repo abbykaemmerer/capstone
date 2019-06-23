@@ -46,12 +46,14 @@ router
 
 let x = document.getElementById('prodButton');
 
-if(states.pageContent === 'Cart'){
-    x.addEventListener('click', ((event) => {
-        receipt.image = states.Obesitycat.productOne.image;
-        receipt.name = states.Obesitycat.productOne.name;
-        receipt.description = states.Obesitycat.productOne.description;
-        receipt.qty = states.Obesitycat.productOne.qty;
-        receipt.price = states.Obesitycat.productOne.price;
-    }));
-}
+x.addEventListener('click', ((event) => {
+    receipt.image = states.Obesitycat.productOne.image;
+    receipt.name = states.Obesitycat.productOne.name;
+    receipt.description = states.Obesitycat.productOne.description;
+    receipt.qty = states.Obesitycat.productOne.qty;
+    receipt.price = states.Obesitycat.productOne.price;
+    console.log(receipt);
+})
+);
+
+

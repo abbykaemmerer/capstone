@@ -1,5 +1,3 @@
-// import receipt from './store/receipt';
-
 export default (receipt) =>    `
 <main>
 
@@ -13,7 +11,7 @@ export default (receipt) =>    `
     <div id = 'image'><img src="${receipt.image}"></div>
     <div>
     <div id = 'name'>${receipt.name}</div>
-    <div id = 'desc'></div>
+    <div id = 'desc'>${receipt.description}</div>
     </div>
     <div>
     <div id = 'plus-button'></div>
