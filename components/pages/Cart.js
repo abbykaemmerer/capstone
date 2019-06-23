@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 const getObject = JSON.parse(localStorage.getItem('receipt'));
 
 export default () =>
@@ -10,23 +11,33 @@ export default () =>
     Shopping Cart
   </div>
 
-  <div class="prod">
-    <div id = 'image'><img src="${getObject.image}" height = 100></div>
-    <div>
-    <div id = 'name'>${getObject.name}</div>
+<div class="prod">
+    <div id = 'image'>
+      <img src="${getObject.image}" height = 100>
+    </div>
+    <div id = 'desc'>
+      <span><div id = 'name'>${getObject.name}</div></span>
+      <span>${getObject.description}</span>
+    </div>
+    <div id = 'qty'>
+      <div id = 'plus-button'>
+        <button id="plus-button" type="button" name="button">
+          <i class="fas fa-plus"></i>
+        </button>
+      </div>
+
+      <input type="text" name="name" value=${getObject.qty}>
+
+      <div id = 'minus-button'>
+        <button id="minus-button" type="button" name="button">
+          <i class="fas fa-minus"></i>
+        </button>
+      </div>
+    </div>
+
     <div id = 'price'>${getObject.price}</div>
-    <div id = 'qty'>${getObject.qty}</div>
-    <div id = 'desc'>${getObject.description}</div>
-    </div>
-    <div>
-    <div id = 'plus-button'></div>
-    <div id = 'box'></div>
-    <div id = 'minus-button'></div>
-    </div>
-    <div id = 'price' ></div>
-  </div>
 
-
+</div>
 
 </main>`;
 console.log(getObject);
@@ -54,6 +65,7 @@ console.log(getObject);
 </div>
 <div class="total-price">$2342</div>
 </div>
+
 
 <div class="item">
 
