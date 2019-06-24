@@ -44,22 +44,22 @@ router
     .resolve();
 
 
-let prodButton = document.querySelector('#prodButton');
+const prodButton = document.querySelector('#prodButton');
 
 
 prodButton.addEventListener('click', (() => {
-    let img = states.Obesitycat.productOne.image;
+    const img = states.Obesitycat.productOne.image;
 
-    let name = states.Obesitycat.productOne.name;
-    let price = states.Obesitycat.productOne.price;
-    let description = states.Obesitycat.productOne.description;
-    let qty = states.Obesitycat.productOne.qty;
-    let pageContent = states.Obesitycat.pageContent;
+    const name = states.Obesitycat.productOne.name;
+    const price = states.Obesitycat.productOne.price;
+    const description = states.Obesitycat.productOne.description;
+    const qty = states.Obesitycat.productOne.qty;
+    const pageContent = states.Obesitycat.pageContent;
 
     if(typeof(Storage) !== 'undefined'){
-        let bill = [];
+        const bill = [];
 
-        let receipt = {
+        const receipt = {
             'pageContent': pageContent,
             'image': img,
             'name': name,
