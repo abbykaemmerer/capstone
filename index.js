@@ -34,7 +34,7 @@ ${Footer(state)}
 
 render(states.Home);
 
-// const links = document.querySelectorAll('nav a');
+const links = document.querySelectorAll('nav a');
 
 router
     .on(':path',(params) => {

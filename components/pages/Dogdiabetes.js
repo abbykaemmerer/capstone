@@ -20,7 +20,6 @@ function generateCardHTML(products){
     }).join(' ');
 }
 
-generateCardHTML();
 
 export default (state) => `
 <main>
@@ -47,7 +46,7 @@ export default (state) => `
     <div class="condition-products">
         <h2>Recommended products:</h2>
     <div class="products">
-
+    ${generateCardHTML(state.products)};
 
     </div>
     </div>

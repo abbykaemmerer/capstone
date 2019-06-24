@@ -20,7 +20,6 @@ function generateCardHTML(products){
     }).join(' ');
 }
 
-generateCardHTML();
 
 export default (state) => `
 <main>
@@ -47,12 +46,13 @@ export default (state) => `
         <h2>Recommended products:</h2>
             <div class="products">
 
-
+            ${generateCardHTML(state.products)};
 
             </div>
     </div>
 </div>
 </main>`;
+
 
 { /* <div class="card">
 <div class="prodImg">
