@@ -8,23 +8,24 @@ export default {
     'subtitle': 'Urinary Tract Disease',
     'backgroundImage': imgB,
     'links': links,
-    'prod-1': {
-        'name': 'Urinary Tract Adult Cat Canned Wet Food',
-        'image': img1,
-        'price': '$24.00',
-        'description': 'Helps support a healthy immune system, while also maintaining urinary tract health.'
-    },
-    'prod-2': {
-        'name': 'UTI Treatment',
-        'image': img1,
-        'price': '$20.00',
-        'description': 'Provides long lasting relief with no side-effects.'
-    },
-    'prod-3': {
-        'name': 'Feline Urinary Tract Supplements',
-        'image': img1,
-        'price': '$8.00',
-        'description': 'Encourages normal, healthy urinary tract function.'
-    }
+    'products': [
+        {
+            'name': 'Urinary Tract Adult Cat Canned Wet Food',
+            'image': img1,
+            'price': '$24.00',
+            'description': 'Helps support a healthy immune system, while also maintaining urinary tract health.'
+        },
+        {
+            'name': 'UTI Treatment',
+            'image': img1,
+            'price': '$20.00',
+            'description': 'Provides long lasting relief with no side-effects.'
+        },
+        {
+            'name': 'Feline Urinary Tract Supplements',
+            'image': img1,
+            'price': '$8.00',
+            'description': 'Encourages normal, healthy urinary tract function.'
+        } ]
 };
 

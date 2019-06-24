@@ -44,7 +44,7 @@ router
     .resolve();
 
 
-const prodButton = document.querySelectorAll('#prodButton');
+const prodButtons = document.querySelectorAll('.prodButton');
 
 prodButtons.forEach((prodButton) => {
     prodButton.querySelector('button').addEventListener('click', function(e){
@@ -59,6 +59,8 @@ prodButtons.forEach((prodButton) => {
         console.log(receipt);
     });
 });
+
+
 // prodButton.addEventListener('click', (() => {
 //     const img = states.Obesitycat.prod-1.image;
 

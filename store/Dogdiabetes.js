@@ -8,23 +8,24 @@ export default {
     'subtitle': 'Diabetes',
     'backgroundImage': imgB,
     'links': links,
-    'prod-1': {
-        'name': 'Pet Blood Sugar Support',
-        'image': img2,
-        'price': '$60.00',
-        'description': "Enhances your dog's quality of life during blood gluclose management."
-    },
-    'prod-2': {
-        'name': 'Guide to Diabetes in Dogs',
-        'image': img2,
-        'price': '$12.00',
-        'description': 'A comprehensive book to teach you all about diabetes in dogs and how to improve their lives.'
-    },
-    'prod-3': {
-        'name': 'Diabetic Treats',
-        'image': img2,
-        'price': '$21.00',
-        'description': 'Contain ingredients known to help reduce blood and help manage insulin requirements.'
-    }
+    'products': [
+        {
+            'name': 'Pet Blood Sugar Support',
+            'image': img2,
+            'price': '$60.00',
+            'description': "Enhances your dog's quality of life during blood glucose management."
+        },
+        {
+            'name': 'Guide to Diabetes in Dogs',
+            'image': img2,
+            'price': '$12.00',
+            'description': 'A comprehensive book to teach you all about diabetes in dogs and how to improve their lives.'
+        },
+        {
+            'name': 'Diabetic Treats',
+            'image': img2,
+            'price': '$21.00',
+            'description': 'Contain ingredients known to help reduce blood and help manage insulin requirements.'
+        } ]
 };
 
