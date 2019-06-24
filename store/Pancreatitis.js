@@ -8,19 +8,19 @@ export default {
     'subtitle': 'Pancreatitis',
     'backgroundImage': imgB,
     'links': links,
-    'productOne': {
+    'prod-1': {
         'name': 'Dog Food for Sensitive Stomachs',
         'image': img2,
         'price': '$33.00',
         'description': 'Whole grain blend will provide your dogs with a nutrient rich balanced diet. Made with easily digestible single source protein, probiotics and high fiber.'
     },
-    'productTwo': {
+    'prod-2': {
         'name': 'Digestive Enzymes for Dogs',
         'image': img2,
         'price': '$25.00',
         'description': 'Helps support a healthy digestive system.'
     },
-    'productThree': {
+    'prod-3': {
         'name': 'Dog Digestive Support Soft Chew Treats',
         'image': img2,
         'price': '$10.00',

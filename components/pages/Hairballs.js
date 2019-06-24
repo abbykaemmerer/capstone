@@ -24,16 +24,16 @@ export default (state) => `
 
         <div class="card" id="prod-1">
             <div class="prodImg">
-            <img src= "${state.productOne.image}" alt="" height=300>
+            <img src= "${state.prod-1.image}" alt="" height=300>
             </div>
             <div class="prodName">
-            ${state.productOne.name}
+            ${state.prod-1.name}
             </div>
             <div class="prodDescrip">
-            ${state.productOne.description}
+            ${state.prod-1.description}
             </div>
             <div class="prodPrice">
-            ${state.productOne.price}
+            ${state.prod-1.price}
             </div>
             <div class="prodButton">
             <button>Add to Cart</button>
@@ -42,16 +42,16 @@ export default (state) => `
 
         <div class="card" id="prod-2">
             <div class="prodImg">
-            <img src= "${state.productOne.image}" alt="" height=300>
+            <img src= "${state.prod-2.image}" alt="" height=300>
             </div>
             <div class="prodName">
-            ${state.productTwo.name}
+            ${state.prod-2.name}
             </div>
             <div class="prodDescrip">
-            ${state.productTwo.description}
+            ${state.prod-2.description}
             </div>
             <div class="prodPrice">
-            ${state.productTwo.price}
+            ${state.prod-2.price}
             </div>
             <div class="prodButton">
             <button>Add to Cart</button>
@@ -60,16 +60,16 @@ export default (state) => `
 
                 <div class="card" id="prod-3">
             <div class="prodImg">
-            <img src= "${state.productThree.image}" alt="" height=300>
+            <img src= "${state.prod-3.image}" alt="" height=300>
             </div>
             <div class="prodName">
-            ${state.productThree.name}
+            ${state.prod-3.name}
             </div>
             <div class="prodDescrip">
-            ${state.productThree.description}
+            ${state.prod-3.description}
             </div>
             <div class="prodPrice">
-            ${state.productThree.price}
+            ${state.prod-3.price}
             </div>
             <div class="prodButton">
             <button>Add to Cart</button>

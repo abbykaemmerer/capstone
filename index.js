@@ -51,13 +51,13 @@ prodButtons.forEach((prodButton) => {
 });
 
 // prodButton.addEventListener('click', (() => {
-//     const img = states.Obesitycat.productOne.image;
+//     const img = states.Obesitycat.prod-1.image;
 
-// const name = states.Obesitycat.productOne.name;
-// const price = states.Obesitycat.productOne.price;
-// const description = states.Obesitycat.productOne.description;
-// const qty = states.Obesitycat.productOne.qty;
-// const pageContent = states.Obesitycat.productOne.pageContent;
+// const name = states.Obesitycat.prod-1.name;
+// const price = states.Obesitycat.prod-1.price;
+// const description = states.Obesitycat.prod-1.description;
+// const qty = states.Obesitycat.prod-1.qty;
+// const pageContent = states.Obesitycat.prod-1.pageContent;
 
 // if(typeof(Storage) !== 'undefined') {
 //    const bill = [];

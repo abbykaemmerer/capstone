@@ -8,19 +8,19 @@ export default {
     'subtitle': 'Pregnancy',
     'backgroundImage': imgB,
     'links': links,
-    'productOne': {
+    'prod-1': {
         'name': 'Mother and Kitten Dry Cat Food',
         'image': img1,
         'price': '$20.00',
         'description': 'Formulated for the specific needs of growing kittens and mothers.'
     },
-    'productTwo': {
+    'prod-2': {
         'name': 'Premium Pet Cave',
         'image': img1,
         'price': '$35.00',
         'description': 'A soft, warm and washable bed that your cat will not want to leave.'
     },
-    'productThree': {
+    'prod-3': {
         'name': 'Multivitamin for Cats',
         'image': img1,
         'price': '$17.00',

@@ -8,19 +8,19 @@ export default {
     'subtitle': 'Pregnancy',
     'backgroundImage': imgB,
     'links': links,
-    'productOne': {
+    'prod-1': {
         'name': 'Mother and Puppy Dry Dog Food',
         'image': img2,
         'price': '$45.00',
         'description': 'Nutritional solution that meets the needs of the mother and her puppies during gestation, lactation and growth.'
     },
-    'productTwo': {
+    'prod-2': {
         'name': 'Pet Supplements Puppy & Pregnancy',
         'image': img2,
         'price': '$37.00',
         'description': 'Complete spectrum of vitamins, minerals and trace minerals to main peak health.'
     },
-    'productThree': {
+    'prod-3': {
         'name': 'Multivitamin for Dogs',
         'image': img2,
         'price': '$17.00',
