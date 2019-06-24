@@ -22,7 +22,7 @@ export default (state) => `
         <h2>Recommended products:</h2>
     <div class="products">
 
-        <div class="card">
+        <div class="card" id="prod-1">
             <div class="prodImg">
             <img src= "${state.productOne.image}" alt="" height=300>
             </div>
@@ -40,9 +40,9 @@ export default (state) => `
             </div>
         </div>
 
-        <div class="card">
+        <div class="card" id="prod-2">
             <div class="prodImg">
-            <img src= "${state.productTwo.image}" alt="" height=300>
+            <img src= "${state.productOne.image}" alt="" height=300>
             </div>
             <div class="prodName">
             ${state.productTwo.name}
@@ -58,7 +58,7 @@ export default (state) => `
             </div>
         </div>
 
-        <div class="card">
+                <div class="card" id="prod-3">
             <div class="prodImg">
             <img src= "${state.productThree.image}" alt="" height=300>
             </div>
