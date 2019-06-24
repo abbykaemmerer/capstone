@@ -44,7 +44,7 @@ router
     .resolve();
 
 
-let x = document.getElementById('prodButton');
+let x = document.querySelector('#prodButton');
 
 
 x.addEventListener('click', ((event) => {
