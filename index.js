@@ -47,9 +47,18 @@ router
 const prodButton = document.querySelectorAll('#prodButton');
 
 prodButtons.forEach((prodButton) => {
-    prodButton.querySelector('button').addEventListener('click', () => console.log('click!'));
-});
+    prodButton.querySelector('button').addEventListener('click', function(e){
+        const currentView = router.lastRouteResolved().url.substring(1);
+        const currentProduct = e.target.parentElement.parentElement.getAttribute('id');
+        const receipt = {
+            'image': states[currentView][currentProduct].image,
+            'price': states[currentView][currentProduct].price,
+            'description': states[currentView][currentProduct].description,
+        };
 
+        console.log(receipt);
+    });
+});
 // prodButton.addEventListener('click', (() => {
 //     const img = states.Obesitycat.prod-1.image;
 

@@ -8,7 +8,7 @@ export default {
     'subtitle': 'Obesity',
     'backgroundImage': imgB,
     'links': links,
-    'prod-1
+    'prod-1':
         'name': 'Weight Control Adult Dry Cat Food',
         'image': img1,
         'price': '$35.00',
