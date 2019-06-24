@@ -34,7 +34,7 @@ ${Footer(state)}
 
 render(states.Home);
 
-const links = document.querySelectorAll('nav a');
+// const links = document.querySelectorAll('nav a');
 
 router
     .on(':path',(params) => {
@@ -44,10 +44,10 @@ router
     .resolve();
 
 
-let x = document.querySelector('#prodButton');
+let prodButton = document.querySelector('#prodButton');
 
 
-x.addEventListener('click', ((event) => {
+prodButton.addEventListener('click', (() => {
     let img = states.Obesitycat.productOne.image;
 
     let name = states.Obesitycat.productOne.name;
