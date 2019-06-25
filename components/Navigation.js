@@ -18,8 +18,7 @@ ${buildNavHTML(state.links.dropdown)}
 </ul>
 </li>
 </ul>
-</nav>;
-`;
+</nav>`;
 
 
 { /* <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
