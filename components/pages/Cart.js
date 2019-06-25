@@ -1,5 +1,5 @@
 /* eslint-disable no-lone-blocks */
-const getObject = JSON.parse(localStorage.getItem('bill'));
+const getObject = JSON.parse(localStorage.getItem('receipt'));
 
 export default () =>
     `

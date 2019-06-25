@@ -56,6 +56,7 @@ prodButtons.forEach((prodButton) => {
     prodButton
         .querySelector('button')
         .addEventListener('click', function clickHandler(e){
+            alert('You have added this product to your cart!');
             const currentView = router.lastRouteResolved().url.substring(1);
             const currentProduct = e.target.parentElement.parentElement.getAttribute(
                 'id'
@@ -78,7 +79,7 @@ prodButtons.forEach((prodButton) => {
                 bill.push(receipt);
                 console.log('bill', bill);
                 console.log('receipt', receipt);
-                localStorage.setItem('bill', JSON.stringify(bill));
+                localStorage.setItem('receipt', JSON.stringify(receipt));
             }
         });
 });
