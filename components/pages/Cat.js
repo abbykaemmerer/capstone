@@ -27,12 +27,12 @@ export default (state) => `    <main>
         <button type="button" class="button"><a href="./Pregcat">Pregnancy</a></button>
       </div>
     </div>
+
     <div class="pictures">
       <img src="${state.image1}" alt="">
       <img src="${state.image2}" alt="">
-      <img src="${state.image3}".jpg" alt="">
+      <img src="${state.image3}" alt="">
     </div>
 </div>
 </main>`;
-
 
