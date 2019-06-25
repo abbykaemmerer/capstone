@@ -34,7 +34,7 @@ ${Footer(state)}
 
 render(states.Home);
 
-const links = document.querySelectorAll('nav a');
+// const links = document.querySelectorAll('nav a');
 
 router
     .on(':path',(params) => {
@@ -42,7 +42,6 @@ router
     })
     .on('/', () => render(states.Home))
     .resolve();
-
 
 const prodButtons = document.querySelectorAll('.prodButton');
 
@@ -54,7 +53,7 @@ prodButtons.forEach((prodButton) => {
         const receipt = {
             'image': states[currentView][currentProduct].image,
             'price': states[currentView][currentProduct].price,
-            'description': states[currentView][currentProduct].description,
+            'description': states[currentView][currentProduct].description
         };
 
         console.log(receipt);
