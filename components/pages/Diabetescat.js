@@ -16,8 +16,8 @@ function generateCardHTML(products){
         <div class="prodButton">
         <button>Add to Cart</button>
         </div>
-    </div>`
-    ).join(' ');
+    </div>`;
+    }).join(' ');
 }
 
 export default (state) =>

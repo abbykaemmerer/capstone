@@ -59,9 +59,9 @@ prodButtons.forEach((prodButton) => {
             );
 
             const receipt = {
-                'image': states[currentView][currentProductIndex].image,
-                'price': states[currentView][currentProductIndex].price,
-                'description': states[currentView][currentProductIndex].description
+                'image': states[currentView][currentProductIndex - 1].image,
+                'price': states[currentView][currentProductIndex - 1].price,
+                'description': states[currentView][currentProductIndex - 1].description
             };
 
 
