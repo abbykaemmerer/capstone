@@ -50,6 +50,7 @@ router
 
 
 const prodButtons = document.querySelectorAll('.prodButton');
+const bill = [ ];
 
 prodButtons.forEach((prodButton) => {
     prodButton
@@ -63,7 +64,9 @@ prodButtons.forEach((prodButton) => {
             const currentProductIndex = currentProduct.substring(
                 currentProduct.length - 1
             );
+
             const receipt = {
+                'name': states[currentView].products[currentProductIndex - 1].name,
                 'image': states[currentView].products[currentProductIndex - 1].image,
                 'price': states[currentView].products[currentProductIndex - 1].price,
                 'description':
@@ -71,7 +74,12 @@ prodButtons.forEach((prodButton) => {
                             .description
             };
 
-            console.log(receipt);
+            if(typeof(Storage) !== 'undefined'){
+                bill.push(receipt);
+                console.log('bill', bill);
+                console.log('receipt', receipt);
+                localStorage.setItem('bill', JSON.stringify(bill));
+            }
         });
 });
 
@@ -89,7 +97,7 @@ prodButtons.forEach((prodButton) => {
 //    const bill = [];
 
 // const receipt = {
-//     'pageContent': pageContent,
+//   'pageContent': pageContent,
 //     'image': img,
 //     'name': name,
 //     'price': price,
@@ -97,10 +105,10 @@ prodButtons.forEach((prodButton) => {
 //     'qty': qty
 // };
 
-//        bill.push(receipt);
-//        console.log(bill);
+//    bill.push(receipt);
+//    console.log(bill);
 
-//        localStorage.setItem('receipt', JSON.stringify(receipt));
+//    localStorage.setItem('receipt', JSON.stringify(receipt));
 
 // Store
 

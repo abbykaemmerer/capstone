@@ -1,8 +1,9 @@
 /* eslint-disable no-lone-blocks */
-const getObject = JSON.parse(localStorage.getItem('receipt'));
+const getObject = JSON.parse(localStorage.getItem('bill'));
 
 export default () =>
     `
+    ${console.log(getObject)};
 <main>
 
 <div class="shopping-cart">

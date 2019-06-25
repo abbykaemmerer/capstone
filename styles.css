@@ -50,9 +50,7 @@ a:link {
   text-decoration: none;
   color: black;
 }
-a:hover {
-  color: #0067B6
-}
+
 li:hover #dropdown {
   display: block;
 }
@@ -63,7 +61,6 @@ a:visited {
 
 .nav-menu {
   list-style: none;
-  padding-right: 20px;
   display: flex;
   justify-content: center;
 }
@@ -82,6 +79,10 @@ a:visited {
   background-color: rgba(255,255,255,.2);
   text-align: center;
   width: 135px;
+}
+
+a:hover {
+  font-weight: bolder;
 }
 
 .home-container {
@@ -127,23 +128,28 @@ a:visited {
 
 .page-grid-container {
   display: grid;
-  grid-template-rows: 1fr 1.25fr 1fr;
-  grid-template-areas: "description" "links" "pictures";
+  grid-template-rows: 1fr 1.25fr;
+  grid-template-areas: "description" "links";
 }
 
 .description {
   grid-area: description;
   background: rgba(255,255,255,.6);
-  border: 1px solid #E1E8EE;
   margin: 70px 70px 0px;
   padding: 0 30px;
 }
 
 .links {
   grid-area: links;
-  font-size: 30px;
+  font-size: 25px;
   border: 3px #223e40;
   margin-top: 150px;
+}
+
+.links button {
+  border: 2px solid;
+  background-color: rgba(255,255,255,.2);
+  text-align: center;
 }
 
 /* .links a {
@@ -156,14 +162,13 @@ a:visited {
 } */
 
 
-.pictures {
+/* .pictures {
   grid-area: pictures;
   }
 
   .pictures img {
     width: 33%;
-  }
-
+  } */
 
 #conditions1 {
   display: flex;
