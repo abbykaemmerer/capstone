@@ -1,5 +1,5 @@
 function generateCardHTML(products){
-    return products.map((product,i) => {
+    return products.map((product,i) =>
         `<div class="card" id="prod-${i + 1}">
         <div class="prodImg">
         <img src= "${product.image}" alt="" height=300>
@@ -16,8 +16,8 @@ function generateCardHTML(products){
         <div class="prodButton">
         <button>Add to Cart</button>
         </div>
-    </div>`;
-    }).join(' ');
+    </div>`
+    ).join(' ');
 }
 
 export default (state) =>
@@ -46,8 +46,7 @@ export default (state) =>
     <div class="condition-products">
         <h2>Recommended products:</h2>
     <div class="products">
-    ${generateCardHTML(state.products)};
-    ${console.log(state)};
+    ${generateCardHTML(state.products)}
     </div>
     </div>
 </div>
