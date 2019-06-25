@@ -13,6 +13,11 @@ export default () =>
   </div>
 
 <div class="prod">
+    <div id = 'delete-button'>
+      <button id="delete-button" type="button" name="button">
+      <i class="fas fa-trash"></i>
+      </button>
+    </div>
     <div id = 'image'>
       <img src="${getObject.image}" height = 100>
     </div>

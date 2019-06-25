@@ -275,7 +275,7 @@ a:hover {
   border-bottom: 1px solid #e1e8ee;
 }
 
-.delete-button {
+#delete-button {
   display: inline-block;
   cursor: pointer;
   width: 18px;
