@@ -13,7 +13,7 @@ function generateCardHTML(products){
         <div class="prodPrice">
         ${product.price}
         </div>
-        <div id="prodButton">
+        <div class="prodButton">
         <button>Add to Cart</button>
         </div>
     </div>`;
