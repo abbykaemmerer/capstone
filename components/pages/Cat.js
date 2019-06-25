@@ -17,13 +17,15 @@ export default (state) => `    <main>
 
 
     <div class="links">
-    <div class="btn-group btn-group-lg" role="group" aria-label="Basic example">
-    <button type="submit" class="btn btn-secondary"><a href="./ObesityCat">Obesity</a></button>
-    <button type="button" class="btn btn-secondary"><a href="./Diabetescat">Diabetes</a></button>
-    <button type="button" class="btn btn-secondary"><a href="./Ut">Urinary Tract Disease</a></button>
-    <button type="button" class="btn btn-secondary"><a href="./Hairballs">Hair Balls</a></button>
-    <button type="button" class="btn btn-secondary"><a href="./Pregcat">Pregnancy</a></button>
-  </div>
+      <div id='conditions1'>
+        <button type="button" class="button"><a href="./ObesityCat">Obesity</a></button>
+        <button type="button" class="button"><a href="./Diabetescat">Diabetes</a></button>
+        <button type="button" class="button"><a href="./Ut">Urinary Tract</a></button>
+      </div>
+      <div id= 'conditions2'>
+        <button type="button" class="button"><a href="./Hairballs">Hair Balls</a></button>
+        <button type="button" class="button"><a href="./Pregcat">Pregnancy</a></button>
+      </div>
     </div>
     <div class="pictures">
       <img src="${state.image1}" alt="">
@@ -34,12 +36,3 @@ export default (state) => `    <main>
 </main>`;
 
 
-{ /* <div id='conditions1'>
-<a href="./ObesityCat">Obesity</a>
-<a href="./Diabetescat">Diabetes</a>
-<a href="./Ut">Urinary Tract</a>
-</div>
-<div id= 'conditions2'>
-<a href="./Hairballs">Hair Balls</a>
-<a href="./Pregcat">Pregnancy</a>
-</div> */ }

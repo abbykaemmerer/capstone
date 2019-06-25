@@ -4,12 +4,14 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 // import receipt from './store/receipt';
 
-import cloudinary from “cloudinary-core”;
-
 import * as states from './store';
 import { capitalize } from 'lodash';
 
 import Navigo from 'navigo';
+
+import cloudinary from 'cloudinary-core';
+
+const cl = new cloudinary.Cloudinary({ 'cloud_name': 'abbykaemmerer', 'secure': true });
 
 const router = new Navigo(window.location.origin);
 
@@ -37,7 +39,7 @@ ${Footer(state)}
 render(states.Home);
 
 // const links = document.querySelectorAll('nav a');
-var cl = new cloudinary.Cloudinary({cloud_name: "abbykaemmerer", secure: true});
+
 
 router
     .on(':path',(params) => {
@@ -46,26 +48,30 @@ router
     .on('/', () => render(states.Home))
     .resolve();
 
+
 const prodButtons = document.querySelectorAll('.prodButton');
 
 prodButtons.forEach((prodButton) => {
-    // eslint-disable-next-line func-names
     prodButton
         .querySelector('button')
         .addEventListener('click', function clickHandler(e){
             const currentView = router.lastRouteResolved().url.substring(1);
-            const currentProduct = e.target.parentElement.parentElement.getAttribute('id');
-
-            // Get digit at end of id string
+            const currentProduct = e.target.parentElement.parentElement.getAttribute(
+                'id'
+            );
+                // Get digit at end of id string
             const currentProductIndex = currentProduct.substring(
                 currentProduct.length - 1
             );
-
             const receipt = {
-                'image': states[currentView][currentProductIndex - 1].image,
-                'price': states[currentView][currentProductIndex - 1].price,
-                'description': states[currentView][currentProductIndex - 1].description
+                'image': states[currentView].products[currentProductIndex - 1].image,
+                'price': states[currentView].products[currentProductIndex - 1].price,
+                'description':
+                        states[currentView].products[currentProductIndex - 1]
+                            .description
             };
+
+            console.log(receipt);
         });
 });
 
