@@ -47,6 +47,7 @@ router
 const prodButtons = document.querySelectorAll('.prodButton');
 
 prodButtons.forEach((prodButton) => {
+    // eslint-disable-next-line func-names
     prodButton.querySelector('button').addEventListener('click', function(e){
         const currentView = router.lastRouteResolved().url.substring(1);
         const currentProduct = e.target.parentElement.parentElement.getAttribute('id');

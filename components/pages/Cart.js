@@ -38,6 +38,9 @@ export default () =>
     <div id = 'price'>${getObject.price}</div>
 
 </div>
+<div class="checkout-button">
+<a href="./Checkout"> Proceed to Checkout </a>
+</div>
 
 </main>`;
 
