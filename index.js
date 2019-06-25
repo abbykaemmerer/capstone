@@ -4,6 +4,8 @@ import Main from './components/Main';
 import Footer from './components/Footer';
 // import receipt from './store/receipt';
 
+import cloudinary from “cloudinary-core”;
+
 import * as states from './store';
 import { capitalize } from 'lodash';
 
@@ -35,6 +37,7 @@ ${Footer(state)}
 render(states.Home);
 
 // const links = document.querySelectorAll('nav a');
+var cl = new cloudinary.Cloudinary({cloud_name: "abbykaemmerer", secure: true});
 
 router
     .on(':path',(params) => {
@@ -63,9 +66,6 @@ prodButtons.forEach((prodButton) => {
                 'price': states[currentView][currentProductIndex - 1].price,
                 'description': states[currentView][currentProductIndex - 1].description
             };
-
-
-            console.log(receipt);
         });
 });
 
