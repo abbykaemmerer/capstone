@@ -47,17 +47,26 @@ const prodButtons = document.querySelectorAll('.prodButton');
 
 prodButtons.forEach((prodButton) => {
     // eslint-disable-next-line func-names
-    prodButton.querySelector('button').addEventListener('click', function(e){
-        const currentView = router.lastRouteResolved().url.substring(1);
-        const currentProduct = e.target.parentElement.parentElement.getAttribute('id');
-        const receipt = {
-            'image': states[currentView][currentProduct].image,
-            'price': states[currentView][currentProduct].price,
-            'description': states[currentView][currentProduct].description
-        };
+    prodButton
+        .querySelector('button')
+        .addEventListener('click', function clickHandler(e){
+            const currentView = router.lastRouteResolved().url.substring(1);
+            const currentProduct = e.target.parentElement.parentElement.getAttribute('id');
 
-        console.log(receipt);
-    });
+            // Get digit at end of id string
+            const currentProductIndex = currentProduct.substring(
+                currentProduct.length - 1
+            );
+
+            const receipt = {
+                'image': states[currentView][currentProductIndex].image,
+                'price': states[currentView][currentProductIndex].price,
+                'description': states[currentView][currentProductIndex].description
+            };
+
+
+            console.log(receipt);
+        });
 });
 
 
