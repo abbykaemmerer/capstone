@@ -1,25 +1,4 @@
-function generateCardHTML(products){
-    products.map((product,i) => {
-        `<div class="card" id="prod-${i + 1}">
-        <div class="prodImg">
-        <img src= "${product.image}" alt="" height=300>
-        </div>
-        <div class="prodName">
-        ${product.name}
-        </div>
-        <div class="prodDescrip">
-        ${product.description}
-        </div>
-        <div class="prodPrice">
-        ${product.price}
-        </div>
-        <div class="prodButton">
-        <button>Add to Cart</button>
-        </div>
-    </div>`;
-    }).join(' ');
-}
-
+import { generateCardHTML } from '../../lib';
 
 export default (state) => `
 <main>
@@ -44,7 +23,7 @@ export default (state) => `
     <div class="condition-products">
         <h2>Recommended products:</h2>
     <div class="products">
-    ${generateCardHTML(state.products)};
+    ${generateCardHTML(state.products)}
 
     </div>
     </div>
