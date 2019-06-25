@@ -1,5 +1,5 @@
 function generateCardHTML(products){
-    products.map((product,i) => {
+    return products.map((product,i) => {
         `<div class="card" id="prod-${i + 1}">
         <div class="prodImg">
         <img src= "${product.image}" alt="" height=300>
@@ -16,8 +16,8 @@ function generateCardHTML(products){
         <div id="prodButton">
         <button>Add to Cart</button>
         </div>
-    </div>`;
-    }).join(' ');
+    </div>`
+    ).join(' ');
 }
 
 export default (state) =>
