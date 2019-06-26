@@ -170,8 +170,9 @@ a:hover {
 .condition-description {
   background: rgba(255,255,255,.6);
   border: solid 3px #eee;
+  border-radius: .5%;
   height: 50%;
-  margin: 300px 70px 70px;
+  margin: 20% 5% 10%;
   padding: 0 30px;
 }
 
@@ -182,6 +183,7 @@ a:hover {
   margin: 40px;
   padding: 15px;
   border: solid 3px #eee;
+  border-radius: .5%
 }
 
 .condition-products h2 {
