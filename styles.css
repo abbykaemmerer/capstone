@@ -21,7 +21,7 @@ h1{
   font-size: 2.5em;
 }
 
-h3 {
+header h3 {
   margin: 0 10px 5px;
   font-size: 1em;
 }
@@ -66,7 +66,8 @@ a:visited {
 .nav-menu {
   list-style: none;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
+  padding-right: 25px;
 }
 
 .cats-button {
@@ -405,12 +406,16 @@ input:focus {
 
 
 /* Check Out */
+.checkout-title {
+  padding: 0 16px;
+  font-weight: bold;
+  font-size: 1.2em;
+}
 .row {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin: 0 -16px;
 }
 
 .form-headers {
@@ -440,6 +445,14 @@ input:focus {
   border-radius: 3px;
   width: 800px;
   margin-bottom: 30px;
+}
+
+.checkout-container{
+  padding-top: 50px;
+}
+
+.sum-container{
+  padding-top: 50px;
 }
 
 .checkout-container input[type=text] {

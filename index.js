@@ -78,6 +78,8 @@ prodButtons.forEach((prodButton) => {
 
             if(typeof(Storage) !== 'undefined'){
                 bill.push(receipt);
+
+                states.Cart.bill = bill;
                 console.log('bill', bill);
                 console.log('receipt', receipt);
                 localStorage.setItem('receipt', JSON.stringify(receipt));

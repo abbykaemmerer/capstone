@@ -3,7 +3,11 @@ export default () => `     <main>
   <div class="col-75">
     <div class="checkout-container">
         <form action="https://formspree.io/kaemmerer.abby@gmail.com" method="POST" class="container" id="order-form" >
+        <div class="checkout-title">
+        <h2>Checkout</h2>
+        </div>
           <div class="row">
+
             <div class="col-50">
               <h3 class="form-headers">Billing Address</h3>
               <label for="fname"> Full Name</label>
