@@ -1,6 +1,7 @@
 /* eslint-disable no-lone-blocks */
 const getObject = JSON.parse(localStorage.getItem('receipt'));
 
+
 function itemAdder(receipt){
     return receipt.map((receipt,i) =>
         `<div class="card" id="prod-${i + 1}">
@@ -86,3 +87,4 @@ ${itemAdder(receipt)}
     <div id = 'price'>${getObject.price}</div>
 
 </div> */ }
+
