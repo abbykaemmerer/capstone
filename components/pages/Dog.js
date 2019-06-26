@@ -16,19 +16,19 @@ export default (state) => `      <main>
 
   <div class="links">
       <div id='conditions1'>
-        <a href="./Dogobesity">Obesity</a>
-        <a href="./Skin">Poor Skin & Coat Condition</a>
-        <a href="./Pancreatitis">Pancreatitis</a>
-      </div>
-      <div id= 'conditions2'>
-        <a href="./Dogdiabetes">Diabetes</a>
-        <a href="./Dogpreg">Pregnancy</a>
+        <button type="button" class="button"><a href="./Dogobesity">Obesity</a></button>
+        <button type="button" class="button"><a href="./Skin">Poor Skin & Coat Condition</a></button>
+        <button type="button" class="button"><a href="./Pancreatitis">Pancreatitis</a></button>
+        <button type="button" class="button"><a href="./Dogdiabetes">Diabetes</a></button>
+        <button type="button" class="button"><a href="./Dogpreg">Pregnancy</a></button>
       </div>
   </div>
-    <div class="pictures">
-      <img src="${state.image1}" alt="">
-      <img src="${state.image2}" alt="">
-      <img src="${state.image3}" alt="">
-    </div>
+
 </div>
 </main>`;
+
+{ /* <div class="pictures">
+<img src="${state.image1}" alt="">
+<img src="${state.image2}" alt="">
+<img src="${state.image3}" alt="">
+</div> */ }

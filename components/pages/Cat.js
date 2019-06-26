@@ -21,19 +21,13 @@ export default (state) => `    <main>
         <button type="button" class="button"><a href="./ObesityCat">Obesity</a></button>
         <button type="button" class="button"><a href="./Diabetescat">Diabetes</a></button>
         <button type="button" class="button"><a href="./Ut">Urinary Tract</a></button>
-      </div>
-      <div id= 'conditions2'>
         <button type="button" class="button"><a href="./Hairballs">Hair Balls</a></button>
         <button type="button" class="button"><a href="./Pregcat">Pregnancy</a></button>
       </div>
-    </div>
 
-    <div class="pictures">
-
-    </div>
 </div>
 </main>`;
 
-{/* <img src="${state.image1}" alt="">
+{ /* <div class="pictures"> <img src="${state.image1}" alt="">
 <img src="${state.image2}" alt="">
-<img src="${state.image3}" alt=""> */}
+<img src="${state.image3}" alt=""> </div>*/ }
