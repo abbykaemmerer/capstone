@@ -10,7 +10,6 @@ html {
 header {
   font-size: 1.5em;
   background-color: rgba(255,255,255,.6);
-  padding-top: 10px;
 }
 
 nav {
@@ -18,11 +17,13 @@ nav {
 }
 
 h1{
-  margin: 0 5px 5px;
+  margin: 0 10px 5px;
+  font-size: 2.5em;
 }
 
 h3 {
-  margin: 0 5px 5px;
+  margin: 0 10px 5px;
+  font-size: 1em;
 }
 
 footer {
@@ -65,8 +66,6 @@ a:visited {
   justify-content: center;
 }
 
-
-
 .cats-button {
   font-size: -webkit-xxx-large;
   border: 2px solid;
@@ -101,7 +100,7 @@ a:hover {
   grid-template-columns: auto;
   grid-template-rows: auto auto auto auto;
 
-  /* Named areas. */
+
   grid-template-areas:
     "nav"
     "header"
@@ -130,7 +129,7 @@ a:hover {
 
 .page-grid-container {
   display: grid;
-  grid-template-rows: 1fr 1.25fr;
+  grid-template-rows: 1fr .50fr;
   grid-template-areas: "description" "links";
 }
 
@@ -401,6 +400,7 @@ input:focus {
   background-color: #6c9575;
 }
 
+
 /* Check Out */
 .row {
   display: -ms-flexbox;
@@ -424,15 +424,10 @@ input:focus {
   flex: 50%;
 }
 
-.col-75 {
-
-}
-
 .col-25,
 .col-50,
 .col-75 {
   padding: 0 16px;
-
 }
 
 .container {
