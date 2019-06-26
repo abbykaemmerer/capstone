@@ -15,6 +15,8 @@ export default (state) => `
         <ul>Health Risks:
             <li> Obesity </li>
             <li> Diarrhea </li>
+            <li> Obesity </li>
+            <li> Diarrhea </li>
         </ul>
         </p>
     </div>

@@ -16,6 +16,8 @@ export default (state) => `
             <ul>Health Risks:
                 <li> Intestinal blockage </li>
                 <li> Choking </li>
+                <li> Intestinal blockage </li>
+                <li> Choking </li>
                 </ul>
                 </p>
         </div>

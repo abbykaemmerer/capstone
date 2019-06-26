@@ -12,6 +12,12 @@ export default (state) => `
             <li> Folliculitis </li>
             <li> Impetigo </li>
         </ul>
+        <ul>Health Risks:
+        <li>Allery</li>
+        <li>Yeast infection</li>
+        <li> Folliculitis </li>
+        <li> Impetigo</li>
+    </ul>
         </p>
     </div>
 
