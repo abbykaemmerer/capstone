@@ -7,6 +7,8 @@ import * as states from './store';
 
 import { capitalize } from 'lodash';
 
+import swal from 'sweetalert';
+
 import Navigo from 'navigo';
 
 const router = new Navigo(window.location.origin);
@@ -51,7 +53,6 @@ prodButtons.forEach((prodButton) => {
     prodButton
         .querySelector('button')
         .addEventListener('click', function clickHandler(e){
-            alert('You have added this product to your cart!');
             const currentView = router.lastRouteResolved().url.substring(1);
             const currentProduct = e.target.parentElement.parentElement.getAttribute(
                 'id'
@@ -61,6 +62,11 @@ prodButtons.forEach((prodButton) => {
                 currentProduct.length - 1
             );
 
+            swal({
+                'title': 'Yay!',
+                'text': 'This product has been added to your cart!',
+                'icon': 'success',
+            });
             const receipt = {
                 'name': states[currentView].products[currentProductIndex - 1].name,
                 'image': states[currentView].products[currentProductIndex - 1].image,
