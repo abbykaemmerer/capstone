@@ -26,6 +26,9 @@ export default (state) => `
 
     ${generateCardHTML(state.products)}
     </div>
+    <div class="checkit">
+    <a href="./Cart"><i class="fas fa-shopping-cart"></i></a>
+    </div>
     </div>
 </div>
 </main>`;
