@@ -1,5 +1,5 @@
 import { generateCardHTML } from '../../lib';
-
+import { cartButton } from '../../lib';
 
 export default (state) => `
 <main>
@@ -25,9 +25,10 @@ export default (state) => `
 
     <div class="condition-products">
         <h2>Recommended products:</h2>
-    <div class="products">
-    ${generateCardHTML(state.products)}
-
+        <div class="products">
+            ${generateCardHTML(state.products)}
+        </div>
+        ${cartButton()}
     </div>
 </div>
 </main>`;

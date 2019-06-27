@@ -1,5 +1,7 @@
 import { generateCardHTML } from '../../lib';
 
+import { cartButton } from '../../lib';
+
 export default (state) => `
 <main>
 <div class="condition-grid-container">
@@ -26,9 +28,7 @@ export default (state) => `
 
     ${generateCardHTML(state.products)}
     </div>
-    <div class="checkit">
-    <a href="./Cart"><i class="fas fa-shopping-cart"></i></a>
-    </div>
+    ${cartButton()}
     </div>
 </div>
 </main>`;

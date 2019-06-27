@@ -1,4 +1,5 @@
 import { generateCardHTML } from '../../lib';
+import { cartButton } from '../../lib';
 
 export default (state) => `
 <main>
@@ -26,6 +27,7 @@ export default (state) => `
     ${generateCardHTML(state.products)}
 
     </div>
+    ${cartButton()}
     </div>
 </div>
 </main>`;
