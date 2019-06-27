@@ -27,5 +27,4 @@ export default {
             'price': '$13.00',
             'description': 'Cat toys stimulate your cats hunting instincts, helping them stay fit and healthy.'
         } ]
-
 };

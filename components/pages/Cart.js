@@ -8,13 +8,9 @@ function itemAdder(bill){
 
     <div class="card" id="prod-${i + 1}">
         <div class="prod">
-            <div id = 'delete-button'>
-              <button id="delete-button" type="button" name="button">
-              <i class="fas fa-trash"></i>
-            </button>
-            </div>
+
           <div id = 'image'>
-            <img src="${bill[i].image}" height = 100>
+            <img src="${bill[i].image}" height = 150>
           </div>
           <div id = 'desc'>
             <span><div id = 'name'>${bill[i].name}</div></span>
@@ -33,6 +29,7 @@ function itemAdder(bill){
               </button>
             </div>
           </div>
+          <div id="price">${bill[i].price}</div>
         </div>
       </div>`;
     }
@@ -46,6 +43,7 @@ export default (state) => `
               <div class="shopping-cart-title">
               Shopping Cart
               </div>
+
 
 ${itemAdder(state.bill)}
 

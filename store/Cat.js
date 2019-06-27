@@ -12,5 +12,5 @@ export default {
     'image1': img1,
     'image2': img2,
     'image3': img3,
-    'links': links
+    'links': links,
 };

@@ -82,7 +82,7 @@ prodButtons.forEach((prodButton) => {
                 states.Cart.bill = bill;
                 console.log('bill', bill);
                 console.log('receipt', receipt);
-                localStorage.setItem('receipt', JSON.stringify(receipt));
+                // localStorage.setItem('receipt', JSON.stringify(receipt));
             }
         });
 });
