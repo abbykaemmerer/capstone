@@ -13,20 +13,19 @@ export default {
             'name': 'Weight Control Adult Dry Cat Food',
             'image': img1,
             'price': '$35.00',
-            'description': 'Made with optimal blend of protein and calories to help your cat achieve and maintain an ideal body weight.',
-            'qty': 1
-        } ,
+            'description': 'Made with optimal blend of protein and calories to help your cat achieve and maintain an ideal body weight.'
+        },
         {
             'name': 'Slow Feed Cat Bowl',
             'image': img1,
             'price': '$15.00',
-            'description': 'Designed to slow down eating for dogs and cats'
+            'description': 'Designed to slow down eating for dogs and cats.'
         },
         {
             'name': 'Assorted Cat Toys',
             'image': img1,
             'price': '$13.00',
-            'description': "Cat toys stimulate your cats' hunting instincts, helping them stay fit and healthy."
+            'description': 'Cat toys stimulate your cats hunting instincts, helping them stay fit and healthy.'
         } ]
-};
 
+};
