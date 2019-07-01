@@ -152,7 +152,7 @@ a:hover {
 .links {
   grid-area: links;
   font-size: 1.5em;
-  margin: 17% 10% 0;
+  margin: 14% 10% 0;
 }
 
 .links button {
